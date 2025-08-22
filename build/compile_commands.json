@@ -13,6 +13,12 @@
 
 {
   "directory": "/home/glf/MPRPC/build",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/glf/MPRPC/src/rpcheader.pb.cc",
+  "file": "/home/glf/MPRPC/src/rpcheader.pb.cc"
+},
+
+{
+  "directory": "/home/glf/MPRPC/build",
   "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/glf/MPRPC/src/rpcprovider.cc",
   "file": "/home/glf/MPRPC/src/rpcprovider.cc"
 },

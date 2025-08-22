@@ -1,12 +1,12 @@
 # ninja log v5
-11	2319	1755874313539971782	src/CMakeFiles/mprpc.dir/rpcprovider.cc.o	19c11ab61ed56de4
+2	2373	1755881482562020559	src/CMakeFiles/mprpc.dir/rpcprovider.cc.o	19c11ab61ed56de4
 2	1005	1755874312224964872	src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o	a04a54eded813eae
 96	2923	1755801290591746277	example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o	9dd794dbc0932512
-964	1184	1755872249918114882	../bin/provider	3ca58c5799cdc1ce
+2456	2804	1755881482993022759	../bin/provider	86f8c0f1e53747f9
 5	1496	1755874312716967457	src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o	74a6bc7f4ffef79a
-6	2962	1755874071718752538	example/callee/CMakeFiles/provider.dir/userservice.cc.o	bbfd17c7c6aba779
-2319	2352	1755874313572971956	../lib/libmprpc.a	8f5665a201dd0ff4
-1	356	1755874429532581287	../bin/provider	86f8c0f1e53747f9
-2	2104	1755874613268546762	src/CMakeFiles/mprpc.dir/rpcprovider.cc.o	19c11ab61ed56de4
-2107	2189	1755874613361547251	../lib/libmprpc.a	8f5665a201dd0ff4
-2189	2680	1755874613848549810	../bin/provider	86f8c0f1e53747f9
+4	2959	1755881388308599151	example/callee/CMakeFiles/provider.dir/userservice.cc.o	bbfd17c7c6aba779
+2373	2456	1755881482647020993	../lib/libmprpc.a	8f5665a201dd0ff4
+2	3040	1755885764653102592	src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o	8cf1add16537e5c9
+13	3578	1755885765196105478	src/CMakeFiles/mprpc.dir/rpcprovider.cc.o	19c11ab61ed56de4
+3578	3689	1755885765312106094	../lib/libmprpc.a	6825e36407994171
+3689	4353	1755885765972109602	../bin/provider	86f8c0f1e53747f9
