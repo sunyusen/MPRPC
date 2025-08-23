@@ -12,7 +12,23 @@ int main(int argc, char **argv)
 	// UserServiceRpc_Stub是由protoc编译器根据user.proto文件生成的，这是自己写的方法
 	// new MprpcChannel():创建一个MprpcChannel对象，作为RPC通信的信道。
 	fixbug::UserServiceRpc_Stub stub(new MprpcChannel());	//MprpcChannel是处理RPC调用的底层逻辑
-	stub.Login();	//RpcChannel->RpcChannel::callMethod	集中来做所有rpc方法调用的参数序列化和网络发送
+	fixbug::LoginRequest request;
+	request.set_name("zhangsan");
+	request.set_pwd("123456")
+	// rpc方法的响应
+	fixbug::LoginResponse response;
+	// 发起rpc方法的调用 同步rpc的调用过程	MprpcChannel::callmethod
+	stub.Login(nullptr, &request, &response, nullptr);	//RpcChannel->RpcChannel::callMethod	集中来做所有rpc方法调用的参数序列化和网络发送
+
+	// 一次rpc调用完成，读调用的结果
+	if(0 == response.result().errcode())
+	{
+		std::cout << "rpc Login response: " << response.success() << std::endl;
+	}
+	else
+	{
+		std::cout << "rpc login response error: " << response.result().errmsg() << std::endl;
+	}
 
 	return 0;
 }
