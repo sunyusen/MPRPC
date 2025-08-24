@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 	fixbug::UserServiceRpc_Stub stub(new MprpcChannel());	//MprpcChannel是处理RPC调用的底层逻辑
 	fixbug::LoginRequest request;
 	request.set_name("zhangsan");
-	request.set_pwd("123456")
+	request.set_pwd("123456");
 	// rpc方法的响应
 	fixbug::LoginResponse response;
 	// 发起rpc方法的调用 同步rpc的调用过程	MprpcChannel::callmethod
@@ -28,6 +28,25 @@ int main(int argc, char **argv)
 	else
 	{
 		std::cout << "rpc login response error: " << response.result().errmsg() << std::endl;
+	}
+
+	// 演示调用远程发布的rpc方法Register
+	fixbug::RegisterRequest register_request;
+	register_request.set_id(10001);
+	register_request.set_name("lisi");
+	register_request.set_pwd("123456");
+	fixbug::RegisterResponse register_response;
+
+	// 以同步的方式发起rpc调用请求，等待返回结果
+	stub.Register(nullptr, &register_request, &register_response, nullptr);
+
+	if(0 == register_response.result().errcode())
+	{
+		std::cout << "rpc Register response: " << register_response.success() << std::endl;
+	}
+	else
+	{
+		std::cout << "rpc Register response error: " << register_response.result().errmsg() << std::endl;
 	}
 
 	return 0;

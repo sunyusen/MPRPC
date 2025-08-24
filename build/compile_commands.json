@@ -31,13 +31,25 @@
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o example/callee/CMakeFiles/provider.dir/userservice.cc.o -c /home/glf/MPRPC/example/callee/userservice.cc",
-  "file": "/home/glf/MPRPC/example/callee/userservice.cc"
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o example/callee/CMakeFiles/provider.dir/friendsservice.cc.o -c /home/glf/MPRPC/example/callee/friendsservice.cc",
+  "file": "/home/glf/MPRPC/example/callee/friendsservice.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/glf/MPRPC/example/user.pb.cc",
-  "file": "/home/glf/MPRPC/example/user.pb.cc"
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/glf/MPRPC/example/friend.pb.cc",
+  "file": "/home/glf/MPRPC/example/friend.pb.cc"
+},
+
+{
+  "directory": "/home/glf/MPRPC/build",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o example/caller/CMakeFiles/consumer.dir/callfriendsservice.cc.o -c /home/glf/MPRPC/example/caller/callfriendsservice.cc",
+  "file": "/home/glf/MPRPC/example/caller/callfriendsservice.cc"
+},
+
+{
+  "directory": "/home/glf/MPRPC/build",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/glf/MPRPC/example/friend.pb.cc",
+  "file": "/home/glf/MPRPC/example/friend.pb.cc"
 }
 ]
