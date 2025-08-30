@@ -94,6 +94,15 @@ build src/edit_cache: phony src/CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_mprpc: phony || src/CMakeFiles/mprpc.dir
 
+build src/CMakeFiles/mprpc.dir/logger.cc.o: CXX_COMPILER__mprpc_Debug ../src/logger.cc || cmake_object_order_depends_target_mprpc
+  DEP_FILE = src/CMakeFiles/mprpc.dir/logger.cc.o.d
+  FLAGS = -std=c++11 -gdwarf-4 -g   -std=gnu++11
+  INCLUDES = -I../src/include -I../example -I/usr/local/protobuf/include
+  OBJECT_DIR = src/CMakeFiles/mprpc.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/mprpc.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/mprpc.dir/mprpc.pdb
+  TARGET_PDB = ../lib/libmprpc.pdb
+
 build src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: CXX_COMPILER__mprpc_Debug ../src/mprpcapplication.cc || cmake_object_order_depends_target_mprpc
   DEP_FILE = src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o.d
   FLAGS = -std=c++11 -gdwarf-4 -g   -std=gnu++11
@@ -105,6 +114,15 @@ build src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o: CXX_COMPILER__mprpc_Debug 
 
 build src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o: CXX_COMPILER__mprpc_Debug ../src/mprpcconfig.cc || cmake_object_order_depends_target_mprpc
   DEP_FILE = src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o.d
+  FLAGS = -std=c++11 -gdwarf-4 -g   -std=gnu++11
+  INCLUDES = -I../src/include -I../example -I/usr/local/protobuf/include
+  OBJECT_DIR = src/CMakeFiles/mprpc.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/mprpc.dir
+  TARGET_COMPILE_PDB = src/CMakeFiles/mprpc.dir/mprpc.pdb
+  TARGET_PDB = ../lib/libmprpc.pdb
+
+build src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o: CXX_COMPILER__mprpc_Debug ../src/mprpccontroller.cc || cmake_object_order_depends_target_mprpc
+  DEP_FILE = src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o.d
   FLAGS = -std=c++11 -gdwarf-4 -g   -std=gnu++11
   INCLUDES = -I../src/include -I../example -I/usr/local/protobuf/include
   OBJECT_DIR = src/CMakeFiles/mprpc.dir
@@ -147,7 +165,7 @@ build src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: CXX_COMPILER__mprpc_Debug ../sr
 #############################################
 # Link the static library ../lib/libmprpc.a
 
-build ../lib/libmprpc.a: CXX_STATIC_LIBRARY_LINKER__mprpc_Debug src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o src/CMakeFiles/mprpc.dir/mprpchchannel.cc.o src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
+build ../lib/libmprpc.a: CXX_STATIC_LIBRARY_LINKER__mprpc_Debug src/CMakeFiles/mprpc.dir/logger.cc.o src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o src/CMakeFiles/mprpc.dir/mprpchchannel.cc.o src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
   LANGUAGE_COMPILE_FLAGS = -std=c++11 -gdwarf-4 -g
   OBJECT_DIR = src/CMakeFiles/mprpc.dir
   POST_BUILD = :
