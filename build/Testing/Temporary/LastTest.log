@@ -1,0 +1,131 @@
+Start testing: Sep 02 02:44 CST
+----------------------------------------------------------
+1/4 Testing: LockQueueTest.SingleThread
+1/4 Test: LockQueueTest.SingleThread
+Command: "/home/glf/MPRPC/bin/unit_tests" "[==[--gtest_filter=LockQueueTest.SingleThread]==]" "--gtest_also_run_disabled_tests"
+Directory: /home/glf/MPRPC/build/test/unit
+"LockQueueTest.SingleThread" start time: Sep 02 02:44 CST
+Output:
+----------------------------------------------------------
+Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+[       OK ] LockQueueTest.MultiProducerSingleConsumer (3 ms)
+[ RUN      ] LockQueueTest.MultiConsumer
+[       OK ] LockQueueTest.MultiConsumer (3 ms)
+[ RUN      ] LockQueueTest.ThreadSafety
+[       OK ] LockQueueTest.ThreadSafety (1 ms)
+[----------] 4 tests from LockQueueTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (8 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LockQueueTest.SingleThread" end time: Sep 02 02:44 CST
+"LockQueueTest.SingleThread" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: LockQueueTest.MultiProducerSingleConsumer
+2/4 Test: LockQueueTest.MultiProducerSingleConsumer
+Command: "/home/glf/MPRPC/bin/unit_tests" "[==[--gtest_filter=LockQueueTest.MultiProducerSingleConsumer]==]" "--gtest_also_run_disabled_tests"
+Directory: /home/glf/MPRPC/build/test/unit
+"LockQueueTest.MultiProducerSingleConsumer" start time: Sep 02 02:44 CST
+Output:
+----------------------------------------------------------
+Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+[       OK ] LockQueueTest.MultiProducerSingleConsumer (1 ms)
+[ RUN      ] LockQueueTest.MultiConsumer
+[       OK ] LockQueueTest.MultiConsumer (2 ms)
+[ RUN      ] LockQueueTest.ThreadSafety
+[       OK ] LockQueueTest.ThreadSafety (2 ms)
+[----------] 4 tests from LockQueueTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (6 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"LockQueueTest.MultiProducerSingleConsumer" end time: Sep 02 02:44 CST
+"LockQueueTest.MultiProducerSingleConsumer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: LockQueueTest.MultiConsumer
+3/4 Test: LockQueueTest.MultiConsumer
+Command: "/home/glf/MPRPC/bin/unit_tests" "[==[--gtest_filter=LockQueueTest.MultiConsumer]==]" "--gtest_also_run_disabled_tests"
+Directory: /home/glf/MPRPC/build/test/unit
+"LockQueueTest.MultiConsumer" start time: Sep 02 02:44 CST
+Output:
+----------------------------------------------------------
+Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+[       OK ] LockQueueTest.MultiProducerSingleConsumer (1 ms)
+[ RUN      ] LockQueueTest.MultiConsumer
+[       OK ] LockQueueTest.MultiConsumer (2 ms)
+[ RUN      ] LockQueueTest.ThreadSafety
+[       OK ] LockQueueTest.ThreadSafety (2 ms)
+[----------] 4 tests from LockQueueTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (6 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"LockQueueTest.MultiConsumer" end time: Sep 02 02:44 CST
+"LockQueueTest.MultiConsumer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: LockQueueTest.ThreadSafety
+4/4 Test: LockQueueTest.ThreadSafety
+Command: "/home/glf/MPRPC/bin/unit_tests" "[==[--gtest_filter=LockQueueTest.ThreadSafety]==]" "--gtest_also_run_disabled_tests"
+Directory: /home/glf/MPRPC/build/test/unit
+"LockQueueTest.ThreadSafety" start time: Sep 02 02:44 CST
+Output:
+----------------------------------------------------------
+Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+[       OK ] LockQueueTest.MultiProducerSingleConsumer (2 ms)
+[ RUN      ] LockQueueTest.MultiConsumer
+[       OK ] LockQueueTest.MultiConsumer (3 ms)
+[ RUN      ] LockQueueTest.ThreadSafety
+[       OK ] LockQueueTest.ThreadSafety (1 ms)
+[----------] 4 tests from LockQueueTest (7 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (7 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"LockQueueTest.ThreadSafety" end time: Sep 02 02:44 CST
+"LockQueueTest.ThreadSafety" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 02 02:44 CST

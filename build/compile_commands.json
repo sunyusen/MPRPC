@@ -1,6 +1,36 @@
 [
 {
   "directory": "/home/glf/MPRPC/build",
+  "command": "/usr/local/bin/g++-11   -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/glf/MPRPC/build/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+
+{
+  "directory": "/home/glf/MPRPC/build",
+  "command": "/usr/local/bin/g++-11   -I_deps/googletest-src/googlemock/include -I_deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/glf/MPRPC/build/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+
+{
+  "directory": "/home/glf/MPRPC/build",
+  "command": "/usr/local/bin/g++-11   -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/glf/MPRPC/build/_deps/googletest-src/googletest/src/gtest_main.cc"
+},
+
+{
+  "directory": "/home/glf/MPRPC/build",
+  "command": "/usr/local/bin/g++-11   -I_deps/googletest-src/googletest/include -I_deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/glf/MPRPC/build/_deps/googletest-src/googletest/src/gtest-all.cc"
+},
+
+{
+  "directory": "/home/glf/MPRPC/build",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o test/unit/CMakeFiles/unit_tests.dir/test_lockqueue.cc.o -c /home/glf/MPRPC/test/unit/test_lockqueue.cc",
+  "file": "/home/glf/MPRPC/test/unit/test_lockqueue.cc"
+},
+
+{
+  "directory": "/home/glf/MPRPC/build",
   "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/logger.cc.o -c /home/glf/MPRPC/src/logger.cc",
   "file": "/home/glf/MPRPC/src/logger.cc"
 },
@@ -43,8 +73,8 @@
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/zookeepertuil.cc.o -c /home/glf/MPRPC/src/zookeepertuil.cc",
-  "file": "/home/glf/MPRPC/src/zookeepertuil.cc"
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/glf/MPRPC/src/zookeeperutil.cc",
+  "file": "/home/glf/MPRPC/src/zookeeperutil.cc"
 },
 
 {

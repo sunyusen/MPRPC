@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250901-1107-Experimental"
+	Name="(empty)"
+	Generator="ctest-2.8.12.2"
+	CompilerName=""
+	OSName="Linux"
+	Hostname="localhost.localdomain"
+	OSRelease="3.10.0-1160.119.1.el7.x86_64"
+	OSVersion="#1 SMP Tue Jun 4 14:43:51 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="3"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="2827"
+	LogicalProcessorsPerPhysical="0"
+	ProcessorClockFrequency="2688"
+>
+<Testing>
+	<StartDateTime>Sep 02 02:05 CST</StartDateTime>
+	<StartTestTime>1756749956</StartTestTime>
+	<TestList>
+		<Test>./test/unit/unit_tests_NOT_BUILT</Test>
+	</TestList>
+	<Test Status="notrun">
+		<Name>unit_tests_NOT_BUILT</Name>
+		<Path>./test/unit</Path>
+		<FullName>./test/unit/unit_tests_NOT_BUILT</FullName>
+		<FullCommandLine></FullCommandLine>
+		<Results>
+			<NamedMeasurement type="text/string" name="Command Line"><Value></Value></NamedMeasurement>
+			<Measurement>
+				<Value>Unable to find executable: unit_tests_NOT_BUILT</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<EndDateTime>Sep 02 02:05 CST</EndDateTime>
+	<EndTestTime>1756749956</EndTestTime>
+<ElapsedMinutes>0</ElapsedMinutes></Testing>
+</Site>

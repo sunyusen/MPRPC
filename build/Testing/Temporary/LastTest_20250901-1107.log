@@ -1,0 +1,19 @@
+Start testing: Sep 02 02:05 CST
+----------------------------------------------------------
+Unable to find executable: unit_tests_NOT_BUILT
+1/1 Testing: unit_tests_NOT_BUILT
+1/1 Test: unit_tests_NOT_BUILT
+Command: ""
+Directory: /home/glf/MPRPC/build/test/unit
+"unit_tests_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests_NOT_BUILT" end time: Sep 02 02:05 CST
+"unit_tests_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 02 02:05 CST
