@@ -2,6 +2,7 @@
 #include "mprpcapplication.h"
 #include "rpcheader.pb.h"
 #include "logger.h"
+#include "zookeeperutil.h"
 
 /*
 service_name => service描述
@@ -57,6 +58,29 @@ void RpcProvider::Run()
 
 	// 设置muduo库的线程数量
 	server.setThreadNum(4);
+
+	// 把当前rpc节点上要发布的服务全部注册到zk上面， 让rpc client可以从zk上发现服务
+	ZkClient zkCli;
+	zkCli.Start();
+	// service_name为永久性节点  method_name为临时性节点
+	// session timeout  30s   zkclient 网络io线程	1/3 * timeout 时间发送ping消息
+	for (auto &sp : m_serviceMap)
+	{
+		// /service_name
+		std::string service_path = "/" + sp.first;
+		zkCli.Create(service_path.c_str(), nullptr, 0); // 创建永久性节点
+
+		for (auto &mp : sp.second.m_methodMap)
+		{
+			// /service_name/method_name
+			std::string method_path = service_path + "/" + mp.first;
+			char method_path_data[128] = {0};
+			sprintf(method_path_data, "%s:%d", ip.c_str(), port); // ip:port
+			// std::cout << "method_data: " << method_data << std::endl;
+			// ZOO_EPHEMERAL表示是一个临时性的结点
+			zkCli.Create(method_path.c_str(), method_path_data, strlen(method_path_data), ZOO_EPHEMERAL); // 创建临时性节点
+		}
+	}
 
 	std::cout << "RpcProvider start service at ip:" << ip << " port:" << port << std::endl;
 
