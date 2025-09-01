@@ -1,0 +1,1 @@
+/usr/local/gcc-11.2.0/bin/g++  -std=c++11 -gdwarf-4 -g  -rdynamic CMakeFiles/provider.dir/friendsservice.cc.o CMakeFiles/provider.dir/__/friend.pb.cc.o  -o ../../../bin/provider   -L/home/glf/MPRPC/lib  -L/usr/local/protobuf/lib  -Wl,-rpath,/home/glf/MPRPC/lib:/usr/local/protobuf/lib ../../../lib/libmprpc.a -lprotobuf -lmuduo_net -lmuduo_base -lpthread -lzookeeper_mt 
