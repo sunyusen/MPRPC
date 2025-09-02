@@ -27,15 +27,11 @@ target_link_libraries(unit_tests PRIVATE
 	mprpc
 )
 
-# # 头文件
-# target_include_directories(unit_tests PRIVATE
-# 	${CMAKE_SOURCE_DIR}/src/include
-# )
 
 # 包含GoogleTest的CMake模块
 # Google Test提供了一些辅助函数，通过include(GoogleTest)引入
 include(GoogleTest)
-# GoogleTest提供哦的函数，用于自动发现并注册测试用例
+# GoogleTest提供的函数，用于自动发现并注册测试用例
 # 扫描目标unit_test中的Google Test测试用例，并将她们注册到CTest测试框架中，
 # 这样你就可以使用ctest命令来运行这些测试
 gtest_discover_tests(unit_tests)

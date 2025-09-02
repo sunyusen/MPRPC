@@ -15,15 +15,20 @@ FetchContent_Declare(
 # Google Test 默认使用静态的 C 运行时库
 # 如果你的项目使用共享的 C 运行时库（/MD 或 /MDd），而 Google Test 使用静态的运行时库，会导致运行时库冲突，进而引发链接错误或运行时问题。
 # 设置 gtest_force_shared_crt ON 可以确保 Google Test 和你的项目使用相同的运行时库，避免这些问题
-set(gtest_force_shared_crt ON CACHE BOOL "" FORCE) 
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 
-# 用于下载并准备 googletest（Google Test）库的源代码，并将其添加到当前项目中。
-FetchContent_MakeAvailable(googletest)
+# 下载并配置 Google Benchmark
+FetchContent_Declare(
+	googlebenchmark
+	GIT_REPOSITORY https://github.com/google/benchmark.git
+	GIT_TAG v1.5.4
+)
+
+# 用于下载并准备 google Test和goole benchmark
+FetchContent_MakeAvailable(googletest googlebenchmark)
 
 # 开启CTest（让ctest能发现并运行测试）
 enable_testing()
-
-
 
 set(CMAKE_BUILD_TYPE "Debug")  # 设置编译模式为Debug
 

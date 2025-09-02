@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/glf/MPRPC/build/_deps/googletest-build/cmake_install.cmake")
+  include("/home/glf/MPRPC/build/_deps/googlebenchmark-build/cmake_install.cmake")
   include("/home/glf/MPRPC/build/test/cmake_install.cmake")
   include("/home/glf/MPRPC/build/src/cmake_install.cmake")
   include("/home/glf/MPRPC/build/example/cmake_install.cmake")

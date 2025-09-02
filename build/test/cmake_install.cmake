@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/glf/MPRPC/build/test/unit/cmake_install.cmake")
+  include("/home/glf/MPRPC/build/test/benchmark/cmake_install.cmake")
 
 endif()
 
