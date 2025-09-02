@@ -6,4 +6,6 @@ add_test( LockQueueTest.MultiConsumer /home/glf/MPRPC/bin/unit_tests [==[--gtest
 set_tests_properties( LockQueueTest.MultiConsumer PROPERTIES WORKING_DIRECTORY /home/glf/MPRPC/build/test/unit)
 add_test( LockQueueTest.ThreadSafety /home/glf/MPRPC/bin/unit_tests [==[--gtest_filter=LockQueueTest.ThreadSafety]==] --gtest_also_run_disabled_tests)
 set_tests_properties( LockQueueTest.ThreadSafety PROPERTIES WORKING_DIRECTORY /home/glf/MPRPC/build/test/unit)
-set( unit_tests_TESTS LockQueueTest.SingleThread LockQueueTest.MultiProducerSingleConsumer LockQueueTest.MultiConsumer LockQueueTest.ThreadSafety)
+add_test( LockQueueTest.Performance /home/glf/MPRPC/bin/unit_tests [==[--gtest_filter=LockQueueTest.Performance]==] --gtest_also_run_disabled_tests)
+set_tests_properties( LockQueueTest.Performance PROPERTIES WORKING_DIRECTORY /home/glf/MPRPC/build/test/unit)
+set( unit_tests_TESTS LockQueueTest.SingleThread LockQueueTest.MultiProducerSingleConsumer LockQueueTest.MultiConsumer LockQueueTest.ThreadSafety LockQueueTest.Performance)

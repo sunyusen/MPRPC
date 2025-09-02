@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250902-0423-Experimental"
+	Name="(empty)"
+	Generator="ctest-2.8.12.2"
+	CompilerName=""
+	OSName="Linux"
+	Hostname="localhost.localdomain"
+	OSRelease="3.10.0-1160.119.1.el7.x86_64"
+	OSVersion="#1 SMP Tue Jun 4 14:43:51 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="3"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="2827"
+	LogicalProcessorsPerPhysical="0"
+	ProcessorClockFrequency="2688"
+>
+<Testing>
+	<StartDateTime>Sep 02 12:40 CST</StartDateTime>
+	<StartTestTime>1756788031</StartTestTime>
+	<TestList>
+		<Test>./test/unit/LockQueueTest.MultiProducerSingleConsumer</Test>
+		<Test>./test/unit/LockQueueTest.SingleThread</Test>
+		<Test>./test/unit/LockQueueTest.MultiConsumer</Test>
+		<Test>./test/unit/LockQueueTest.ThreadSafety</Test>
+		<Test>./test/unit/LockQueueTest.Performance</Test>
+	</TestList>
+	<Test Status="failed">
+		<Name>LockQueueTest.MultiProducerSingleConsumer</Name>
+		<Path>./test/unit</Path>
+		<FullName>./test/unit/LockQueueTest.MultiProducerSingleConsumer</FullName>
+		<FullCommandLine>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.MultiProducerSingleConsumer]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="text/string" name="Exit Code"><Value>OTHER_FAULT</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Exit Value"><Value>1</Value></NamedMeasurement>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.017544</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.MultiProducerSingleConsumer]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+terminate called without an active exception
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="failed">
+		<Name>LockQueueTest.SingleThread</Name>
+		<Path>./test/unit</Path>
+		<FullName>./test/unit/LockQueueTest.SingleThread</FullName>
+		<FullCommandLine>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.SingleThread]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="text/string" name="Exit Code"><Value>OTHER_FAULT</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Exit Value"><Value>1</Value></NamedMeasurement>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.0224481</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.SingleThread]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+terminate called without an active exception
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="failed">
+		<Name>LockQueueTest.MultiConsumer</Name>
+		<Path>./test/unit</Path>
+		<FullName>./test/unit/LockQueueTest.MultiConsumer</FullName>
+		<FullCommandLine>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.MultiConsumer]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="text/string" name="Exit Code"><Value>OTHER_FAULT</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Exit Value"><Value>1</Value></NamedMeasurement>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.038821</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.MultiConsumer]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+terminate called without an active exception
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="failed">
+		<Name>LockQueueTest.ThreadSafety</Name>
+		<Path>./test/unit</Path>
+		<FullName>./test/unit/LockQueueTest.ThreadSafety</FullName>
+		<FullCommandLine>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.ThreadSafety]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="text/string" name="Exit Code"><Value>OTHER_FAULT</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Exit Value"><Value>1</Value></NamedMeasurement>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.036391</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.ThreadSafety]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+terminate called without an active exception
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="failed">
+		<Name>LockQueueTest.Performance</Name>
+		<Path>./test/unit</Path>
+		<FullName>./test/unit/LockQueueTest.Performance</FullName>
+		<FullCommandLine>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.Performance]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="text/string" name="Exit Code"><Value>OTHER_FAULT</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Exit Value"><Value>1</Value></NamedMeasurement>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.0154822</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.Performance]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+terminate called without an active exception
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<EndDateTime>Sep 02 12:40 CST</EndDateTime>
+	<EndTestTime>1756788031</EndTestTime>
+<ElapsedMinutes>0</ElapsedMinutes></Testing>
+</Site>

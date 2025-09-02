@@ -25,8 +25,8 @@
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o test/unit/CMakeFiles/unit_tests.dir/test_lockqueue.cc.o -c /home/glf/MPRPC/test/unit/test_lockqueue.cc",
-  "file": "/home/glf/MPRPC/test/unit/test_lockqueue.cc"
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o test/unit/CMakeFiles/unit_tests.dir/test_lockQueue.cc.o -c /home/glf/MPRPC/test/unit/test_lockQueue.cc",
+  "file": "/home/glf/MPRPC/test/unit/test_lockQueue.cc"
 },
 
 {
