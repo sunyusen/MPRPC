@@ -2,6 +2,7 @@
 #include "mprpcapplication.h"
 #include <semaphore.h>
 #include <iostream>
+#include <future>
 
 // 全局的watcher观察器		zkserver给zkclient的通知
 void global_watcher(zhandle_t *zh, int type,
@@ -9,10 +10,14 @@ void global_watcher(zhandle_t *zh, int type,
 {
 	if (type == ZOO_SESSION_EVENT)	//回调的消息类型是和会话相关的消息类型
 	{
-		if (state == ZOO_CONNECTED_STATE)	// zkclient和zkserver连接成功
+		if (state == ZOO_CONNECTED_STATE)	// zkclient和zkserver连接建立成功
 		{
-			sem_t *sem = (sem_t *)zoo_get_context(zh);	
-			sem_post(sem);
+			// sem_t *sem = (sem_t *)zoo_get_context(zh);	
+			// sem_post(sem);
+			auto* prom = static_cast<std::promise<void>*>(watcherCtx);
+			if(prom){
+				prom->set_value();
+			}
 		}
 	}
 }
@@ -33,10 +38,15 @@ ZkClient::~ZkClient()
 // 连接zkserver
 void ZkClient::Start()
 {
+	// std::cout << "ZkClient::Start()......" << std::endl;
 	std::string host = MprpcApplication::GetInstance().GetConfig().Load("zookeeperip");
 	std::string port = MprpcApplication::GetInstance().GetConfig().Load("zookeeperport");
 	std::string connstr = host + ":" + port;
 
+	zoo_set_debug_level(ZOO_LOG_LEVEL_ERROR);	//设置zookeeper客户端的日志级别,不打印普通日志
+
+	std::promise<void> prom;
+	auto fut = prom.get_future();
 	/*
 	zookeeper_mt: 多线程版本
 	zookeeper的API客户端程序提供了三个线程
@@ -45,7 +55,8 @@ void ZkClient::Start()
 	watcher回调线程
 	*/
 	// 异步
-	m_zhandle = zookeeper_init(connstr.c_str(), global_watcher, 30000, nullptr, nullptr, 0);
+	m_zhandle = zookeeper_init(connstr.c_str(), global_watcher, 30000, nullptr, &prom, 0);
+	// std::cout << "connstr: " << connstr << std::endl;
 	if (nullptr == m_zhandle)
 	{
 		std::cout << "zookeeper_init error!" << std::endl;
@@ -60,12 +71,13 @@ void ZkClient::Start()
 	这样可以确保 ZooKeeper 客户端在初始化完成后，主线程才会继续执行后续逻辑。
 	*/
 
-	sem_t sem;
-	sem_init(&sem, 0, 0);
-	zoo_set_context(m_zhandle, &sem);	//将sem交给m_zhandle句柄，句柄帮忙传递给global_watcher，通过以上达到同步的目的(global_watcher调用之后，sem_post(&sem);)
+	fut.get();	//阻塞直到set_value()
+	// sem_t sem;
+	// sem_init(&sem, 0, 0);
+	// zoo_set_context(m_zhandle, this);	//将sem交给m_zhandle句柄，句柄帮忙传递给global_watcher，通过以上达到同步的目的(global_watcher调用之后，sem_post(&sem);)
 
-	sem_wait(&sem);
-	std::cout << "zookeeper_init success!" << std::endl;
+	// sem_wait(&m_sem);
+	// std::cout << "zookeeper_init success!" << std::endl;
 }
 // 在zkserver上根据指定的path创建znode节点
 void ZkClient::Create(const char *path, const char *data, int datalen, int state)

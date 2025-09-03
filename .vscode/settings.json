@@ -70,6 +70,7 @@
 		"complex": "cpp",
 		"cinttypes": "cpp",
 		"typeindex": "cpp",
-		"any": "cpp"
+		"any": "cpp",
+		"regex": "cpp"
 	}
 }

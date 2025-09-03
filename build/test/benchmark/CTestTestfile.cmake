@@ -5,4 +5,4 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 add_test(benchmark_tests "/home/glf/MPRPC/bin/benchmark_tests")
-set_tests_properties(benchmark_tests PROPERTIES  _BACKTRACE_TRIPLES "/home/glf/MPRPC/test/benchmark/CMakeLists.txt;31;add_test;/home/glf/MPRPC/test/benchmark/CMakeLists.txt;0;")
+set_tests_properties(benchmark_tests PROPERTIES  _BACKTRACE_TRIPLES "/home/glf/MPRPC/test/benchmark/CMakeLists.txt;42;add_test;/home/glf/MPRPC/test/benchmark/CMakeLists.txt;0;")

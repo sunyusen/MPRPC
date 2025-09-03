@@ -51,6 +51,5 @@ link_directories(/usr/local/protobuf/lib)
 
 # 把test目录加入构建, 必须在include_directorires和link_directories之后,因为test目录需要用到这些设置
 add_subdirectory(test)
-
 add_subdirectory(src)
 add_subdirectory(example)

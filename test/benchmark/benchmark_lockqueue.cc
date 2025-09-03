@@ -25,4 +25,4 @@ static void BM_LockQueue_Pop(benchmark::State& state) {
 }
 BENCHMARK(BM_LockQueue_Pop);
 
-BENCHMARK_MAIN();
+// BENCHMARK_MAIN();

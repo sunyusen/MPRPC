@@ -8,14 +8,21 @@ file(GLOB BENCHMARK_SOURCES
 	${CMAKE_CURRENT_SOURCE_DIR}/benchmark_*.cc
 )
 
-# 生成一个测试可执行文件
-add_executable(benchmark_tests ${BENCHMARK_SOURCES})
 
 # # 让测试能找到你的头文件，顶层已经包含了
 # target_include_directories(unit_tests PRIVATE
 # 	${CMAKE_SOURCE_DIR}/src
 # 	${CMAKE_SOURCE_DIR}/include
 # )
+
+# 确保protobuf生成的文件被正确包含
+set(PROTO_SRC_FILES
+${CMAKE_SOURCE_DIR}/example/user.pb.cc
+# ${CMAKE_SOURCE_DIR}/example/user.pb.h
+)
+
+# 生成一个测试可执行文件
+add_executable(benchmark_tests ${BENCHMARK_SOURCES} ${PROTO_SRC_FILES})
 
 # 链接依赖：
 # - gtest_main: GoogleTest 入口(自带main函数)
@@ -25,7 +32,11 @@ target_link_libraries(benchmark_tests PRIVATE
 	benchmark::benchmark
 	pthread
 	mprpc
+	protobuf
 )
 
-# enable_testing() 顶层已经做了
+# 启用测试
+enable_testing()
+
+# 将benchmark_test添加到CTest中
 add_test(NAME benchmark_tests COMMAND benchmark_tests)

@@ -1,0 +1,2089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250903-0034-Experimental"
+	Name="(empty)"
+	Generator="ctest-2.8.12.2"
+	CompilerName=""
+	OSName="Linux"
+	Hostname="localhost"
+	OSRelease="3.10.0-1160.119.1.el7.x86_64"
+	OSVersion="#1 SMP Tue Jun 4 14:43:51 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="3"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="2827"
+	LogicalProcessorsPerPhysical="0"
+	ProcessorClockFrequency="2688"
+>
+<Testing>
+	<StartDateTime>Sep 03 18:34 CST</StartDateTime>
+	<StartTestTime>1756895688</StartTestTime>
+	<TestList>
+		<Test>./test/benchmark/benchmark_tests</Test>
+		<Test>./_deps/googlebenchmark-build/test/complexity_benchmark</Test>
+		<Test>./_deps/googlebenchmark-build/test/user_counters_tabular_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/basic_benchmark</Test>
+		<Test>./_deps/googlebenchmark-build/test/options_benchmarks</Test>
+		<Test>./_deps/googlebenchmark-build/test/user_counters_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/internal_threading_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/reporter_output_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/multiple_ranges_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/skip_with_error_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/args_product_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/register_benchmark_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/map_test</Test>
+		<Test>./test/unit/LockQueueTest.ThreadSafety</Test>
+		<Test>./_deps/googlebenchmark-build/test/cxx03</Test>
+		<Test>./test/unit/LockQueueTest.Performance</Test>
+		<Test>./test/unit/LockQueueTest.MultiConsumer</Test>
+		<Test>./_deps/googlebenchmark-build/test/benchmark</Test>
+		<Test>./_deps/googlebenchmark-build/test/user_counters_thousands_test</Test>
+		<Test>./test/unit/LockQueueTest.MultiProducerSingleConsumer</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_none_negative</Test>
+		<Test>./test/unit/LockQueueTest.SingleThread</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_all</Test>
+		<Test>./_deps/googlebenchmark-build/test/fixture_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_end_negative</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_blank</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_begin</Test>
+		<Test>./_deps/googlebenchmark-build/test/display_aggregates_only_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/report_aggregates_only_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_begin2_negative</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_wildcard</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_simple</Test>
+		<Test>./_deps/googlebenchmark-build/test/templated_fixture_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/diagnostics_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/benchmark_random_interleaving_gtest</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_simple_negative</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_suffix</Test>
+		<Test>./_deps/googlebenchmark-build/test/memory_manager_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/perf_counters_gtest</Test>
+		<Test>./_deps/googlebenchmark-build/test/link_main_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_wildcard_negative</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_all_negative</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_suffix_negative</Test>
+		<Test>./_deps/googlebenchmark-build/test/commandlineflags_gtest</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_begin2_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_end</Test>
+		<Test>./_deps/googlebenchmark-build/test/benchmark_name_gtest</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_begin_negative</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_begin2</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_all_negative_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_begin2_negative_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_none</Test>
+		<Test>./_deps/googlebenchmark-build/test/string_util_gtest</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_end_negative_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/statistics_gtest</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_blank_negative</Test>
+		<Test>./_deps/googlebenchmark-build/test/donotoptimize_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/benchmark_gtest</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_begin_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_suffix_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_begin_negative_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_blank_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_simple_negative_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/perf_counters_test</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_blank_negative_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_wildcard_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_wildcard_negative_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_simple_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_suffix_negative_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_none_negative_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_all_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_end_list_only</Test>
+		<Test>./_deps/googlebenchmark-build/test/filter_regex_none_list_only</Test>
+	</TestList>
+	<Test Status="failed">
+		<Name>benchmark_tests</Name>
+		<Path>./test/benchmark</Path>
+		<FullName>./test/benchmark/benchmark_tests</FullName>
+		<FullCommandLine>/home/glf/MPRPC/bin/benchmark_tests</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="text/string" name="Exit Code"><Value>Failed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Exit Value"><Value>1</Value></NamedMeasurement>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.47253</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/bin/benchmark_tests</Value></NamedMeasurement>
+			<Measurement>
+				<Value>test.conf is not exist!
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>complexity_benchmark</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/complexity_benchmark</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/complexity_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>4.97798</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/complexity_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running benchmarks...
+-------------------------------
+Testing ConsoleReporter Output
+-------------------------------
+------------------------------------------------------------------------------------
+Benchmark                                          Time             CPU   Iterations
+------------------------------------------------------------------------------------
+BM_Complexity_O1/1                              5304 ns         1480 ns        10455
+BM_Complexity_O1/8                              1419 ns         1153 ns        11832
+BM_Complexity_O1/64                             1372 ns         1111 ns        14335
+BM_Complexity_O1/512                            4343 ns         1288 ns        10000
+BM_Complexity_O1/4096                           2644 ns         1056 ns        10000
+BM_Complexity_O1/32768                          2241 ns         1008 ns        10000
+BM_Complexity_O1/262144                         1832 ns         1114 ns         9470
+BM_Complexity_O1_BigO                        2736.31 (1) ...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>user_counters_tabular_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/user_counters_tabular_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/user_counters_tabular_test &quot;--benchmark_counters_tabular=true&quot; &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>9.76875</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/user_counters_tabular_test &quot;--benchmark_counters_tabular=true&quot; &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running benchmarks...
+-------------------------------
+Testing ConsoleReporter Output
+-------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Benchmark                                   Time             CPU   Iterations        Bar        Bat        Baz        Foo       Frob        Lob
+-----------------------------------------------------------------------------------------------------------------------------------------------
+BM_Counters_Tabular/threads:1            4.72 ns         1.71 ns     13630332          2          8          4          1         16         32
+BM_Counters_Tabular/threads:2            3.02 ns         2.10 ns      8299848          2          8          4          1         16         32
+BM_Counters_Tabular/threads:4           0.522 ns         1.93 ns      5462768          2          8          4          1         16         32
+2025-09-03T18:34:49+08:00
+Running /home/glf...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>basic_benchmark</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/basic_benchmark</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/basic_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>6.73468</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/basic_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>----------------------------------------------------------------------------------------
+Benchmark                                              Time             CPU   Iterations
+----------------------------------------------------------------------------------------
+BM_empty                                            15.8 ns         3.84 ns      3008615
+2025-09-03T18:34:54+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/basic_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 3.79, 1.88, 1.50
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+BM_empty/threads:2                                  2.79 ns         5.15 ns      3064508
+BM_spin_empty/8                                      218 ns         57.4 ns       275534
+BM_spin_empty/512                                   6342 ns         2786 ns         3629
+BM_spin_empty/8192                                581167 ...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>options_benchmarks</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/options_benchmarks</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/options_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>13.8474</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/options_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-------------------------------------------------------------------------------------------
+Benchmark                                                 Time             CPU   Iterations
+-------------------------------------------------------------------------------------------
+BM_basic                                               2.92 ns         2.03 ns      7081043
+BM_basic/42                                            2.74 ns         1.88 ns      8791822
+BM_basic_slow/10                                   14742443 ns        16943 ns           10
+2025-09-03T18:34:48+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/options_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 2.29, 1.56, 1.39
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+BM_basic_slow/100                                    100554 us         21.0 us            1
+BM_basic_slow/1000                ...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>user_counters_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/user_counters_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/user_counters_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>5.38614</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/user_counters_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running benchmarks...
+-------------------------------
+Testing ConsoleReporter Output
+-------------------------------
+------------------------------------------------------------------------------------------------
+Benchmark                                      Time             CPU   Iterations UserCounters...
+------------------------------------------------------------------------------------------------
+BM_Counters_Simple                          7.50 ns         2.05 ns      8015435 bar=16.0309M foo=1
+BM_Counters_WithBytesAndItemsPSec           16.8 ns         4.07 ns      2542389 bar=8 bytes_per_second=34.3189k/s foo=1 items_per_second=14.4818k/s
+BM_Counters_Rate                            12.5 ns         4.35 ns      5037150 bar=91.2166/s foo=45.6083/s
+BM_Invert                                   61.7 ns         4.01 ns      1000000 bar=100u foo=10k
+BM_Counters_InvertedRate                    22.8 ns         4.71 ns      3116290 bar=1.79115us foo=0.0146731s
+2025-09-03T18:34:59+08:00
+Running /home/glf/MPRPC/...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>internal_threading_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/internal_threading_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/internal_threading_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>4.27485</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/internal_threading_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running benchmarks...
+-------------------------------
+Testing ConsoleReporter Output
+-------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Benchmark                                                                             Time             CPU   Iterations UserCounters...
+---------------------------------------------------------------------------------------------------------------------------------------
+BM_MainThread/iterations:1/threads:1                                           50014031 ns     21652157 ns            1 invtime=46.1848/s
+BM_MainThread/iterations:1/real_time/threads:1                                121909506 ns      6137897 ns            1 invtime=8.20281/s
+BM_MainThread/iterations:1/manual_time/threads:1                               50000000 ns     10066447 ns            1 invtime=20/s
+2025-09-03T18:35:01+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/i...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>reporter_output_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/reporter_output_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/reporter_output_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>4.94534</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/reporter_output_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running benchmarks...
+-------------------------------
+Testing ConsoleReporter Output
+-------------------------------
+-------------------------------------------------------------------------------------------------
+Benchmark                                                       Time             CPU   Iterations
+-------------------------------------------------------------------------------------------------
+BM_basic                                                     5.73 ns         1.67 ns      8693665
+BM_bytes_per_second                                          57.3 ns         4.93 ns      1000000 bytes_per_second=202.818/s
+BM_items_per_second                                          22.3 ns         3.86 ns      4979389 items_per_second=52.0211/s
+BM_label                                                     14.5 ns         2.03 ns      5431023 some label
+BM_time_label_nanosecond                                     16.1 ns         2.26 ns      6972483
+2025-09-03T18:35:04+08:00
+Running /home/glf/MPRPC/build/_d...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>multiple_ranges_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/multiple_ranges_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/multiple_ranges_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>2.04331</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/multiple_ranges_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------------------------------
+Benchmark                                   Time             CPU   Iterations
+-----------------------------------------------------------------------------
+MultipleRangesFixture/Empty/1/3/5         170 ns         67.3 ns       266557
+MultipleRangesFixture/Empty/2/3/5         489 ns          123 ns       211041
+MultipleRangesFixture/Empty/1/4/5         236 ns         68.9 ns       283589
+MultipleRangesFixture/Empty/2/4/5         193 ns          134 ns       100000
+2025-09-03T18:35:05+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/multiple_ranges_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 4.92, 2.18, 1.60
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+MultipleRangesFixture/Empty/1/7/5         374 ns          103 ns       148432
+MultipleRangesFixture/Empty/2/7/5         734 ...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>skip_with_error_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/skip_with_error_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/skip_with_error_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>3.723</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/skip_with_error_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>--------------------------------------------------------------------------------------------
+Benchmark                                                  Time             CPU   Iterations
+--------------------------------------------------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mBM_error_no_running                               [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;31mERROR OCCURRED: &apos;error message&apos;[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_error_before_running                           [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;31mERROR OCCURRED: &apos;error message&apos;[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_error_before_running_batch                     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;31mERROR OCCURRED: &apos;error message&apos;[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_error_before_running_range_for                 [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;31mERROR OCCURRED: &apos;error message&apos;[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_error_during_running/1/threads:1               [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;31mERROR OCCURRED: &apos;error message&apos;[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_error_during_running/1/threads:2               [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;31mERROR OCCURRED: &apos;error message&apos;[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_error_during_running/1/threads:4               [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;31mERROR OCCURRED: &apos;error message&apos;[NON-XML-CHAR-0x1B][m
+2025-09-03T18...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>args_product_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/args_product_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/args_product_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>1.18079</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/args_product_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>------------------------------------------------------------------------------------
+Benchmark                                          Time             CPU   Iterations
+------------------------------------------------------------------------------------
+ArgsProductFixture/Empty/0/100/2000/30000        114 ns         29.1 ns       354036
+ArgsProductFixture/Empty/1/15/3/8               1408 ns          360 ns        37348
+2025-09-03T18:35:07+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/args_product_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 4.92, 2.18, 1.60
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+ArgsProductFixture/Empty/2/15/3/8               3647 ns          973 ns        18292
+ArgsProductFixture/Empty/1/15/7/8               5202 ns         1215 ns        20837
+ArgsProductFixture/Empty/2/15/7/8              12732 ns         2533 ns       ...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>register_benchmark_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/register_benchmark_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/register_benchmark_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.913905</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/register_benchmark_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>2025-09-03T18:35:08+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/register_benchmark_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 4.92, 2.18, 1.60
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+--------------------------------------------------------------------------
+Benchmark                                Time             CPU   Iterations
+--------------------------------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mBM_function                     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      14.1 ns         2.21 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  13739985[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_function_manual_registration [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      7.81 ns         1.66 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   8732121[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mtest1                           [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      5.21 ns         1.89 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   7403750[NON-XML-CHAR-0x1B][m One[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mtest2                           [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      8.26 ns         1.95 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   8909281[NON-XML-CHAR-0x1B][m Two[NON-XML-CHAR-0x1B][m...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>map_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/map_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/map_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>1.3436</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/map_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>2025-09-03T18:35:07+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/map_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 4.92, 2.18, 1.60
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+---------------------------------------------------------------------------------
+Benchmark                       Time             CPU   Iterations UserCounters...
+---------------------------------------------------------------------------------
+BM_MapLookup/8               9018 ns         2800 ns         7056 items_per_second=2.85672M/s
+BM_MapLookup/64             25858 ns        21615 ns          685 items_per_second=2.96094M/s
+BM_MapLookup/512           186793 ns       171920 ns           61 items_per_second=2.97813M/s
+BM_MapLookup/4096         9738667 ns      1657641 ns            9 items_per_second=2.47098M/s
+MapFixture/Lookup/8          5724 ns          766 ns        ...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>LockQueueTest.ThreadSafety</Name>
+		<Path>./test/unit</Path>
+		<FullName>./test/unit/LockQueueTest.ThreadSafety</FullName>
+		<FullCommandLine>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.ThreadSafety]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.616905</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.ThreadSafety]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+[       OK ] LockQueueTest.MultiProducerSingleConsumer (45 ms)
+[ RUN      ] LockQueueTest.MultiConsumer
+[       OK ] LockQueueTest.MultiConsumer (49 ms)
+[ RUN      ] LockQueueTest.ThreadSafety
+[       OK ] LockQueueTest.ThreadSafety (74 ms)
+[ RUN      ] LockQueueTest.Performance
+Time taken for 100000 operations: 411 ms
+[       OK ] LockQueueTest.Performance (416 ms)
+[----------] 5 tests from LockQueueTest (585 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (586 ms total)
+[  PASSED  ] 5 tests.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>cxx03</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/cxx03</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/cxx03_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>1.08779</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/cxx03_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-------------------------------------------------------------------------
+Benchmark                               Time             CPU   Iterations
+-------------------------------------------------------------------------
+BM_empty                             17.4 ns         4.36 ns      4157434
+BM_old_arg_range_interface/1/2       8.74 ns         3.17 ns      4836784
+2025-09-03T18:35:09+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/cxx03_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+BM_old_arg_range_interface/5/6       10.9 ns         2.81 ns      6101616
+BM_template2&lt;int,long&gt;               25.0 ns         5.88 ns      2843985
+BM_template1&lt;long&gt;                   22.2 ns         5.29 ns      2366836
+BM_template1&lt;int&gt;                    25.2 ns         4.24 ns      3400166
+BM_Fixture&lt;lon...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>LockQueueTest.Performance</Name>
+		<Path>./test/unit</Path>
+		<FullName>./test/unit/LockQueueTest.Performance</FullName>
+		<FullCommandLine>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.Performance]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.788779</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.Performance]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+[       OK ] LockQueueTest.MultiProducerSingleConsumer (66 ms)
+[ RUN      ] LockQueueTest.MultiConsumer
+[       OK ] LockQueueTest.MultiConsumer (57 ms)
+[ RUN      ] LockQueueTest.ThreadSafety
+[       OK ] LockQueueTest.ThreadSafety (83 ms)
+[ RUN      ] LockQueueTest.Performance
+Time taken for 100000 operations: 362 ms
+[       OK ] LockQueueTest.Performance (369 ms)
+[----------] 5 tests from LockQueueTest (578 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (578 ms total)
+[  PASSED  ] 5 tests.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>LockQueueTest.MultiConsumer</Name>
+		<Path>./test/unit</Path>
+		<FullName>./test/unit/LockQueueTest.MultiConsumer</FullName>
+		<FullCommandLine>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.MultiConsumer]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.54647</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.MultiConsumer]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+[       OK ] LockQueueTest.MultiProducerSingleConsumer (47 ms)
+[ RUN      ] LockQueueTest.MultiConsumer
+[       OK ] LockQueueTest.MultiConsumer (27 ms)
+[ RUN      ] LockQueueTest.ThreadSafety
+[       OK ] LockQueueTest.ThreadSafety (61 ms)
+[ RUN      ] LockQueueTest.Performance
+Time taken for 100000 operations: 380 ms
+[       OK ] LockQueueTest.Performance (386 ms)
+[----------] 5 tests from LockQueueTest (522 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (523 ms total)
+[  PASSED  ] 5 tests.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>benchmark</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/benchmark</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/benchmark_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>21.8297</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/benchmark_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------------------------------------
+Benchmark                                         Time             CPU   Iterations
+-----------------------------------------------------------------------------------
+BM_Factorial                                   27.7 ns         25.5 ns       441443 40320
+BM_Factorial/real_time                         31.5 ns         27.6 ns       604993 40320
+BM_CalculatePiRange/1                          36.7 ns         16.4 ns       901947 0
+2025-09-03T18:34:48+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/benchmark_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 2.29, 1.56, 1.39
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+BM_CalculatePiRange/8                          46.9 ns         40.0 ns       387290 3.28374
+BM_CalculatePiRange/64                          467 ns          35...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>user_counters_thousands_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/user_counters_thousands_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/user_counters_thousands_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.332991</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/user_counters_thousands_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running benchmarks...
+-------------------------------
+Testing ConsoleReporter Output
+-------------------------------
+-------------------------------------------------------------------------------------------------
+Benchmark                                       Time             CPU   Iterations UserCounters...
+-------------------------------------------------------------------------------------------------
+BM_Counters_Thousands/repeats:2              3.61 ns         1.73 ns      6967538 t0_1000000DefaultBase=1000k t1_1000000Base1000=1000k t2_1000000Base1024=976.562k t3_1048576Base1000=1048.58k t4_1048576Base1024=1024k
+BM_Counters_Thousands/repeats:2              7.45 ns         2.24 ns      6967538 t0_1000000DefaultBase=1000k t1_1000000Base1000=1000k t2_1000000Base1024=976.562k t3_1048576Base1000=1048.58k t4_1048576Base1024=1024k
+2025-09-03T18:35:10+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/user_counters_thousands_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+ ...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>LockQueueTest.MultiProducerSingleConsumer</Name>
+		<Path>./test/unit</Path>
+		<FullName>./test/unit/LockQueueTest.MultiProducerSingleConsumer</FullName>
+		<FullCommandLine>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.MultiProducerSingleConsumer]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.680034</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.MultiProducerSingleConsumer]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+[       OK ] LockQueueTest.MultiProducerSingleConsumer (64 ms)
+[ RUN      ] LockQueueTest.MultiConsumer
+[       OK ] LockQueueTest.MultiConsumer (35 ms)
+[ RUN      ] LockQueueTest.ThreadSafety
+[       OK ] LockQueueTest.ThreadSafety (84 ms)
+[ RUN      ] LockQueueTest.Performance
+Time taken for 100000 operations: 286 ms
+[       OK ] LockQueueTest.Performance (294 ms)
+[----------] 5 tests from LockQueueTest (479 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (479 ms total)
+[  PASSED  ] 5 tests.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_none_negative</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_none_negative</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-monkey&quot; &quot;5&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.461696</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-monkey&quot; &quot;5&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mNoPrefix   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      5.25 ns         1.72 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  12234030[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Foo     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      4.57 ns         1.79 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   6892511[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Bar     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      5.53 ns         1.76 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10452558[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBar  [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      8.03 ns         1.86 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   7071061[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBa   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      6.84 ns         2.32 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   9950468[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:10+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>LockQueueTest.SingleThread</Name>
+		<Path>./test/unit</Path>
+		<FullName>./test/unit/LockQueueTest.SingleThread</FullName>
+		<FullCommandLine>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.SingleThread]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.619167</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/bin/unit_tests &quot;[==[--gtest_filter=LockQueueTest.SingleThread]==]&quot; &quot;--gtest_also_run_disabled_tests&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from _deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from LockQueueTest
+[ RUN      ] LockQueueTest.SingleThread
+[       OK ] LockQueueTest.SingleThread (0 ms)
+[ RUN      ] LockQueueTest.MultiProducerSingleConsumer
+[       OK ] LockQueueTest.MultiProducerSingleConsumer (52 ms)
+[ RUN      ] LockQueueTest.MultiConsumer
+[       OK ] LockQueueTest.MultiConsumer (61 ms)
+[ RUN      ] LockQueueTest.ThreadSafety
+[       OK ] LockQueueTest.ThreadSafety (93 ms)
+[ RUN      ] LockQueueTest.Performance
+Time taken for 100000 operations: 276 ms
+[       OK ] LockQueueTest.Performance (283 ms)
+[----------] 5 tests from LockQueueTest (491 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (491 ms total)
+[  PASSED  ] 5 tests.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_all</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_all</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=.*&quot; &quot;5&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.707374</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=.*&quot; &quot;5&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mNoPrefix   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      6.57 ns         1.36 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  12932261[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Foo     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      8.78 ns         1.97 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   7638140[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Bar     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      5.91 ns         1.53 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10670358[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:10+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBar  [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      7.01 ns         1.71 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10912053[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBa   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      9.76 ns         2.17 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   5967437[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>fixture_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/fixture_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/fixture_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.554131</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/fixture_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>---------------------------------------------------------------------
+Benchmark                           Time             CPU   Iterations
+---------------------------------------------------------------------
+MyFixture/Foo                    7.07 ns         2.30 ns      6715057
+MyFixture/Bar/42                  123 ns         33.8 ns       361508 items_per_second=3.44109k/s
+2025-09-03T18:35:10+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/fixture_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+MyFixture/Bar/42/threads:2       21.1 ns         38.9 ns       305146 items_per_second=7.06794k/s
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_end_negative</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_end_negative</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-.*Ba$&quot; &quot;4&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.378166</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-.*Ba$&quot; &quot;4&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>2025-09-03T18:35:11+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mNoPrefix   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      4.92 ns         1.66 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   9351068[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Foo     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      2.34 ns         1.79 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10000000[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Bar     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      5.17 ns         1.67 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   6948839[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBar  [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      11.4 ns         1.70 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  13173396[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_blank</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_blank</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=&quot; &quot;5&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.447994</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=&quot; &quot;5&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mNoPrefix   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      4.05 ns         1.76 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  13054976[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Foo     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      5.97 ns         1.56 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   7965557[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Bar     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      8.35 ns         1.69 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10293641[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBar  [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      9.27 ns         1.75 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  13161643[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:11+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBa   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      86.1 ns         2.95 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   1000000[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_begin</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_begin</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=^BM_.*&quot; &quot;4&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.721846</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=^BM_.*&quot; &quot;4&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mBM_Foo     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      6.17 ns         1.34 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   8771941[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:11+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Bar     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      7.12 ns         1.63 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  12521779[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBar  [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      7.65 ns         2.05 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   8687697[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBa   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      4.12 ns         1.23 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   8271362[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>display_aggregates_only_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/display_aggregates_only_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/display_aggregates_only_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.679675</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/display_aggregates_only_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Will be using this as the tmp file: test.69b616
+2025-09-03T18:35:11+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/display_aggregates_only_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+----------------------------------------------------------------------------
+Benchmark                                  Time             CPU   Iterations
+----------------------------------------------------------------------------
+BM_SummaryRepeat/repeats:3_mean         6.84 ns         1.81 ns            3
+BM_SummaryRepeat/repeats:3_median       5.32 ns         1.88 ns            3
+BM_SummaryRepeat/repeats:3_stddev       2.64 ns        0.179 ns            3
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>report_aggregates_only_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/report_aggregates_only_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/report_aggregates_only_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.378932</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/report_aggregates_only_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Will be using this as the tmp file: test.0ff790
+2025-09-03T18:35:12+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/report_aggregates_only_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+----------------------------------------------------------------------------
+Benchmark                                  Time             CPU   Iterations
+----------------------------------------------------------------------------
+BM_SummaryRepeat/repeats:3_mean         6.75 ns         1.75 ns            3
+BM_SummaryRepeat/repeats:3_median       5.94 ns         1.76 ns            3
+BM_SummaryRepeat/repeats:3_stddev       1.97 ns        0.182 ns            3
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_begin2_negative</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_begin2_negative</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-^N&quot; &quot;4&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.536563</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-^N&quot; &quot;4&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mBM_Foo     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      4.76 ns         1.88 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10807406[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Bar     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      10.5 ns         3.11 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   3463247[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:11+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBar  [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      12.7 ns         2.03 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10336671[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBa   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      4.87 ns         1.54 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10211539[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_wildcard</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_wildcard</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=.*Foo.*&quot; &quot;3&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.240938</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=.*Foo.*&quot; &quot;3&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mBM_Foo     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      3.50 ns         1.85 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10000000[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBar  [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      7.88 ns         2.12 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   5880087[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:12+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBa   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      5.96 ns         1.65 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  11295989[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_simple</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_simple</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=Foo&quot; &quot;3&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.46868</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=Foo&quot; &quot;3&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>2025-09-03T18:35:12+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mBM_Foo     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      6.76 ns         2.11 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10120287[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBar  [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      5.63 ns         1.82 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   9315257[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBa   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      4.81 ns         1.51 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  12319237[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>templated_fixture_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/templated_fixture_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/templated_fixture_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.267958</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/templated_fixture_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>----------------------------------------------------------------
+Benchmark                      Time             CPU   Iterations
+----------------------------------------------------------------
+MyFixture&lt;int&gt;/Foo          16.6 ns         3.43 ns      4856226
+MyFixture&lt;double&gt;/Bar       22.3 ns         6.00 ns      3184521
+2025-09-03T18:35:12+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/templated_fixture_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>diagnostics_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/diagnostics_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/diagnostics_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.225655</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/diagnostics_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>--------------------------------------------------------------------------
+Benchmark                                Time             CPU   Iterations
+--------------------------------------------------------------------------
+BM_diagnostic_test                    12.1 ns         3.26 ns      3955111
+2025-09-03T18:35:12+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/diagnostics_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+_deps/googlebenchmark-src/src/benchmark.cc:239: PauseTiming: Check `started_ &amp;&amp; !finished_ &amp;&amp; !error_occurred_&apos; failed. 
+_deps/googlebenchmark-src/src/benchmark.cc:253: ResumeTiming: Check `started_ &amp;&amp; !finished_ &amp;&amp; !error_occurred_&apos; failed. 
+_deps/googlebenchmark-src/src/benchmark.cc:239: PauseTiming: Check `started_ &amp;&amp; !finished_ &amp;&amp; !error_occurred_&apos; failed. 
+_deps/goog...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>benchmark_random_interleaving_gtest</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/benchmark_random_interleaving_gtest</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/benchmark_random_interleaving_gtest</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.149323</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/benchmark_random_interleaving_gtest</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from gmock_main.cc
+[==========] Running 5 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from BenchmarkTest
+[ RUN      ] BenchmarkTest.Match1
+[       OK ] BenchmarkTest.Match1 (2 ms)
+[ RUN      ] BenchmarkTest.Match1WithRepetition
+[       OK ] BenchmarkTest.Match1WithRepetition (0 ms)
+[ RUN      ] BenchmarkTest.Match1WithRandomInterleaving
+[       OK ] BenchmarkTest.Match1WithRandomInterleaving (35 ms)
+[ RUN      ] BenchmarkTest.Match1WithRandomInterleavingAndZeroOverhead
+[       OK ] BenchmarkTest.Match1WithRandomInterleavingAndZeroOverhead (1 ms)
+[----------] 4 tests from BenchmarkTest (40 ms total)
+
+[----------] 1 test from Benchmark
+[ RUN      ] Benchmark.ComputeRandomInterleavingRepetitions
+[       OK ] Benchmark.ComputeRandomInterleavingRepetitions (0 ms)
+[----------] 1 test from Benchmark (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 2 test suites ran. (52 ms total)
+[  PASSED  ] 5 tests.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_simple_negative</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_simple_negative</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-Foo&quot; &quot;2&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.240905</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-Foo&quot; &quot;2&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mNoPrefix   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      6.04 ns         1.87 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   6844915[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Bar     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      9.42 ns         1.87 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10215563[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:12+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_suffix</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_suffix</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=BM_.*&quot; &quot;4&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.549041</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=BM_.*&quot; &quot;4&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mBM_Foo     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      4.98 ns         2.07 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10814261[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:12+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Bar     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      5.22 ns         1.66 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   7135453[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBar  [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      4.09 ns         2.09 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   6566154[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_FooBa   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      3.68 ns         1.83 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   7342223[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>memory_manager_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/memory_manager_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/memory_manager_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.208844</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/memory_manager_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running benchmarks...
+-------------------------------
+Testing ConsoleReporter Output
+-------------------------------
+-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+BM_empty         22.1 ns         4.32 ns      3714388
+
+----------------------------
+Testing JSONReporter Output
+----------------------------
+{
+  &quot;context&quot;: {
+    &quot;date&quot;: &quot;2025-09-03T18:35:12+08:00&quot;,
+    &quot;host_name&quot;: &quot;localhost&quot;,
+    &quot;executable&quot;: &quot;/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/memory_manager_test&quot;,
+    &quot;num_cpus&quot;: 2,
+    &quot;mhz_per_cpu&quot;: 2688,
+    &quot;cpu_scaling_enabled&quot;: false,
+    &quot;caches&quot;: [
+      {
+        &quot;type&quot;: &quot;Data&quot;,
+        &quot;level&quot;: 1,
+        &quot;size&quot;: 49152,
+        &quot;num_sharing&quot;: 1
+      },
+      {
+        &quot;type&quot;: &quot;Instruction&quot;,
+        &quot;level&quot;: 1,
+        &quot;size&quot;: 32768,
+        &quot;num_sharing&quot;: 1
+      },
+      {
+        &quot;type&quot;: &quot;Unified&quot;,
+        &quot;level&quot;: 2,
+        &quot;size&quot;: 1310720,
+2025-09-03T18:35:12+0...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>perf_counters_gtest</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/perf_counters_gtest</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/perf_counters_gtest</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.154008</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/perf_counters_gtest</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from gmock_main.cc
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from PerfCountersTest
+[ RUN      ] PerfCountersTest.Init
+[       OK ] PerfCountersTest.Init (0 ms)
+[ RUN      ] PerfCountersTest.OneCounter
+_deps/googlebenchmark-src/test/perf_counters_gtest.cc:27: Skipped
+Performance counters not supported.
+
+
+[  SKIPPED ] PerfCountersTest.OneCounter (0 ms)
+[ RUN      ] PerfCountersTest.NegativeTest
+[       OK ] PerfCountersTest.NegativeTest (0 ms)
+[ RUN      ] PerfCountersTest.Read1Counter
+_deps/googlebenchmark-src/test/perf_counters_gtest.cc:66: Skipped
+Test skipped because libpfm is not supported.
+
+
+[  SKIPPED ] PerfCountersTest.Read1Counter (0 ms)
+[ RUN      ] PerfCountersTest.Read2Counters
+_deps/googlebenchmark-src/test/perf_counters_gtest.cc:82: Skipped
+Test skipped because libpfm is not supported.
+
+
+[  SKIPPED ] PerfCountersTest.Read2Counters (0 ms)
+[ RUN      ] PerfCountersTest.MultiThreaded
+_deps/googlebenchmark-src/test/...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>link_main_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/link_main_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/link_main_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.157677</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/link_main_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>2025-09-03T18:35:13+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/link_main_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+BM_empty         22.7 ns         5.59 ns      2999648
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_wildcard_negative</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_wildcard_negative</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-.*Foo.*&quot; &quot;2&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.228321</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-.*Foo.*&quot; &quot;2&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mNoPrefix   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      6.65 ns         2.35 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   5756300[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;32mBM_Bar     [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      14.1 ns         2.83 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   4063608[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:13+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_all_negative</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_all_negative</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-.*&quot; &quot;0&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.0973201</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-.*&quot; &quot;0&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Failed to match any benchmarks against regex: -.*
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_suffix_negative</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_suffix_negative</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-BM_.*&quot; &quot;1&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.190218</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-BM_.*&quot; &quot;1&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>2025-09-03T18:35:13+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mNoPrefix   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      10.3 ns         2.01 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   9093710[NON-XML-CHAR-0x1B][m
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>commandlineflags_gtest</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/commandlineflags_gtest</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/commandlineflags_gtest</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.138201</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/commandlineflags_gtest</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from gmock_main.cc
+[==========] Running 15 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from BoolFromEnv
+[ RUN      ] BoolFromEnv.Default
+[       OK ] BoolFromEnv.Default (0 ms)
+[ RUN      ] BoolFromEnv.False
+[       OK ] BoolFromEnv.False (0 ms)
+[ RUN      ] BoolFromEnv.True
+[       OK ] BoolFromEnv.True (0 ms)
+[----------] 3 tests from BoolFromEnv (0 ms total)
+
+[----------] 3 tests from Int32FromEnv
+[ RUN      ] Int32FromEnv.NotInEnv
+[       OK ] Int32FromEnv.NotInEnv (0 ms)
+[ RUN      ] Int32FromEnv.InvalidInteger
+[       OK ] Int32FromEnv.InvalidInteger (0 ms)
+[ RUN      ] Int32FromEnv.ValidInteger
+[       OK ] Int32FromEnv.ValidInteger (0 ms)
+[----------] 3 tests from Int32FromEnv (0 ms total)
+
+[----------] 3 tests from DoubleFromEnv
+[ RUN      ] DoubleFromEnv.NotInEnv
+[       OK ] DoubleFromEnv.NotInEnv (0 ms)
+[ RUN      ] DoubleFromEnv.InvalidReal
+[       OK ] DoubleFromEnv.InvalidReal (0 ms)
+[ RUN      ] DoubleFromEnv.ValidReal
+Environment ...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_begin2_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_begin2_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=^N&quot; &quot;1&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.081665</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=^N&quot; &quot;1&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>NoPrefix
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_end</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_end</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=.*Ba$&quot; &quot;1&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.225856</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=.*Ba$&quot; &quot;1&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mBM_FooBa   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      5.97 ns         1.35 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   8436860[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:13+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>benchmark_name_gtest</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/benchmark_name_gtest</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/benchmark_name_gtest</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.0983</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/benchmark_name_gtest</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from gmock_main.cc
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from BenchmarkNameTest
+[ RUN      ] BenchmarkNameTest.Empty
+[       OK ] BenchmarkNameTest.Empty (0 ms)
+[ RUN      ] BenchmarkNameTest.FunctionName
+[       OK ] BenchmarkNameTest.FunctionName (0 ms)
+[ RUN      ] BenchmarkNameTest.FunctionNameAndArgs
+[       OK ] BenchmarkNameTest.FunctionNameAndArgs (0 ms)
+[ RUN      ] BenchmarkNameTest.MinTime
+[       OK ] BenchmarkNameTest.MinTime (0 ms)
+[ RUN      ] BenchmarkNameTest.Iterations
+[       OK ] BenchmarkNameTest.Iterations (0 ms)
+[ RUN      ] BenchmarkNameTest.Repetitions
+[       OK ] BenchmarkNameTest.Repetitions (0 ms)
+[ RUN      ] BenchmarkNameTest.TimeType
+[       OK ] BenchmarkNameTest.TimeType (0 ms)
+[ RUN      ] BenchmarkNameTest.Threads
+[       OK ] BenchmarkNameTest.Threads (0 ms)
+[ RUN      ] BenchmarkNameTest.TestEmptyFunctionName
+[       OK ] BenchmarkNameTest.TestEmptyFunctionName (0 ms)
+[----------] 9...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_begin_negative</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_begin_negative</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-^BM_.*&quot; &quot;1&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.153466</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-^BM_.*&quot; &quot;1&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mNoPrefix   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      8.86 ns         1.85 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m  10769479[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:13+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_begin2</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_begin2</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=^N&quot; &quot;1&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.247637</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=^N&quot; &quot;1&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>-----------------------------------------------------
+Benchmark           Time             CPU   Iterations
+-----------------------------------------------------
+[NON-XML-CHAR-0x1B][0;32mNoPrefix   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;33m      6.59 ns         1.48 ns   [NON-XML-CHAR-0x1B][m[NON-XML-CHAR-0x1B][0;36m   9406953[NON-XML-CHAR-0x1B][m
+2025-09-03T18:35:13+08:00
+Running /home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test
+Run on (2 X 2688 MHz CPU s)
+CPU Caches:
+  L1 Data 48 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 1280 KiB (x2)
+  L3 Unified 24576 KiB (x2)
+Load Average: 5.41, 2.33, 1.65
+***WARNING*** Library was built as DEBUG. Timings may be affected.
+[NON-XML-CHAR-0x1B][m
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_all_negative_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_all_negative_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-.*&quot; &quot;0&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.196511</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-.*&quot; &quot;0&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Failed to match any benchmarks against regex: -.*
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_begin2_negative_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_begin2_negative_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-^N&quot; &quot;4&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.115994</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-^N&quot; &quot;4&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>BM_Foo
+BM_Bar
+BM_FooBar
+BM_FooBa
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_none</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_none</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=monkey&quot; &quot;0&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.17122</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=monkey&quot; &quot;0&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Failed to match any benchmarks against regex: monkey
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>string_util_gtest</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/string_util_gtest</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/string_util_gtest</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.216641</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/string_util_gtest</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from gmock_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from StringUtilTest
+[ RUN      ] StringUtilTest.stoul
+[       OK ] StringUtilTest.stoul (0 ms)
+[ RUN      ] StringUtilTest.stoi
+[       OK ] StringUtilTest.stoi (0 ms)
+[ RUN      ] StringUtilTest.stod
+[       OK ] StringUtilTest.stod (0 ms)
+[ RUN      ] StringUtilTest.StrSplit
+[       OK ] StringUtilTest.StrSplit (0 ms)
+[----------] 4 tests from StringUtilTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_end_negative_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_end_negative_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-.*Ba$&quot; &quot;4&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.0519199</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-.*Ba$&quot; &quot;4&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>NoPrefix
+BM_Foo
+BM_Bar
+BM_FooBar
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>statistics_gtest</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/statistics_gtest</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/statistics_gtest</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.055733</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/statistics_gtest</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from gmock_main.cc
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from StatisticsTest
+[ RUN      ] StatisticsTest.Mean
+[       OK ] StatisticsTest.Mean (0 ms)
+[ RUN      ] StatisticsTest.Median
+[       OK ] StatisticsTest.Median (0 ms)
+[ RUN      ] StatisticsTest.StdDev
+[       OK ] StatisticsTest.StdDev (0 ms)
+[----------] 3 tests from StatisticsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_blank_negative</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_blank_negative</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-&quot; &quot;0&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.131309</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_filter=-&quot; &quot;0&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Failed to match any benchmarks against regex: -
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>donotoptimize_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/donotoptimize_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/donotoptimize_test &quot;--benchmark_min_time=0.01&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.176301</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/donotoptimize_test &quot;--benchmark_min_time=0.01&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value></Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>benchmark_gtest</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/benchmark_gtest</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/benchmark_gtest</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.107136</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/benchmark_gtest</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Running main() from gmock_main.cc
+[==========] Running 20 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 18 tests from AddRangeTest
+[ RUN      ] AddRangeTest.Simple
+[       OK ] AddRangeTest.Simple (0 ms)
+[ RUN      ] AddRangeTest.Simple64
+[       OK ] AddRangeTest.Simple64 (0 ms)
+[ RUN      ] AddRangeTest.Advanced
+[       OK ] AddRangeTest.Advanced (0 ms)
+[ RUN      ] AddRangeTest.Advanced64
+[       OK ] AddRangeTest.Advanced64 (0 ms)
+[ RUN      ] AddRangeTest.FullRange8
+[       OK ] AddRangeTest.FullRange8 (0 ms)
+[ RUN      ] AddRangeTest.FullRange64
+[       OK ] AddRangeTest.FullRange64 (0 ms)
+[ RUN      ] AddRangeTest.NegativeRanges
+[       OK ] AddRangeTest.NegativeRanges (0 ms)
+[ RUN      ] AddRangeTest.StrictlyNegative
+[       OK ] AddRangeTest.StrictlyNegative (0 ms)
+[ RUN      ] AddRangeTest.SymmetricNegativeRanges
+[       OK ] AddRangeTest.SymmetricNegativeRanges (0 ms)
+[ RUN      ] AddRangeTest.SymmetricNegativeRangesOddMult
+Failed to add custom context &quot;foo&quot; as...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_begin_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_begin_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=^BM_.*&quot; &quot;4&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.147209</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=^BM_.*&quot; &quot;4&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>BM_Foo
+BM_Bar
+BM_FooBar
+BM_FooBa
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_suffix_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_suffix_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=BM_.*&quot; &quot;4&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.106304</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=BM_.*&quot; &quot;4&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>BM_Foo
+BM_Bar
+BM_FooBar
+BM_FooBa
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_begin_negative_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_begin_negative_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-^BM_.*&quot; &quot;1&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.073765</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-^BM_.*&quot; &quot;1&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>NoPrefix
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_blank_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_blank_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=&quot; &quot;5&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.0405052</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=&quot; &quot;5&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>NoPrefix
+BM_Foo
+BM_Bar
+BM_FooBar
+BM_FooBa
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_simple_negative_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_simple_negative_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-Foo&quot; &quot;2&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.16875</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-Foo&quot; &quot;2&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>NoPrefix
+BM_Bar
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>perf_counters_test</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/perf_counters_test</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/perf_counters_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_perf_counters=CYCLES,BRANCHES&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.220704</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/perf_counters_test &quot;--benchmark_min_time=0.01&quot; &quot;--benchmark_perf_counters=CYCLES,BRANCHES&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value></Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_blank_negative_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_blank_negative_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-&quot; &quot;0&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.131074</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-&quot; &quot;0&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Failed to match any benchmarks against regex: -
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_wildcard_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_wildcard_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=.*Foo.*&quot; &quot;3&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.093919</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=.*Foo.*&quot; &quot;3&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>BM_Foo
+BM_FooBar
+BM_FooBa
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_wildcard_negative_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_wildcard_negative_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-.*Foo.*&quot; &quot;2&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.143257</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-.*Foo.*&quot; &quot;2&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>NoPrefix
+BM_Bar
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_simple_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_simple_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=Foo&quot; &quot;3&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.0626419</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=Foo&quot; &quot;3&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>BM_Foo
+BM_FooBar
+BM_FooBa
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_suffix_negative_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_suffix_negative_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-BM_.*&quot; &quot;1&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.0324211</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-BM_.*&quot; &quot;1&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>NoPrefix
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_none_negative_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_none_negative_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-monkey&quot; &quot;5&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.095444</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=-monkey&quot; &quot;5&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>NoPrefix
+BM_Foo
+BM_Bar
+BM_FooBar
+BM_FooBa
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_all_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_all_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=.*&quot; &quot;5&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.117072</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=.*&quot; &quot;5&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>NoPrefix
+BM_Foo
+BM_Bar
+BM_FooBar
+BM_FooBa
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_end_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_end_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=.*Ba$&quot; &quot;1&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.0778849</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=.*Ba$&quot; &quot;1&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>BM_FooBa
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<Test Status="passed">
+		<Name>filter_regex_none_list_only</Name>
+		<Path>./_deps/googlebenchmark-build/test</Path>
+		<FullName>./_deps/googlebenchmark-build/test/filter_regex_none_list_only</FullName>
+		<FullCommandLine>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=monkey&quot; &quot;0&quot;</FullCommandLine>
+		<Results>
+			<NamedMeasurement type="numeric/double" name="Execution Time"><Value>0.028198</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Completion Status"><Value>Completed</Value></NamedMeasurement>
+			<NamedMeasurement type="text/string" name="Command Line"><Value>/home/glf/MPRPC/build/_deps/googlebenchmark-build/test/filter_test &quot;--benchmark_list_tests&quot; &quot;--benchmark_filter=monkey&quot; &quot;0&quot;</Value></NamedMeasurement>
+			<Measurement>
+				<Value>Failed to match any benchmarks against regex: monkey
+</Value>
+			</Measurement>
+		</Results>
+	</Test>
+	<EndDateTime>Sep 03 18:35 CST</EndDateTime>
+	<EndTestTime>1756895714</EndTestTime>
+<ElapsedMinutes>0.4</ElapsedMinutes></Testing>
+</Site>

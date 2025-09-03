@@ -3,6 +3,7 @@
 #include "user.pb.h"
 #include "mprpcapplication.h"
 #include "rpcprovider.h"
+#include "logger.h"
 
 /*
 UserService原来是一个本地服务，提供了两个进程内的本地方法，Login和GetFriendLists
@@ -12,15 +13,20 @@ class UserService : public fixbug::UserServiceRpc	//使用在rpc服务发布端
 public:
 	bool Login(std::string name, std::string pwd)
 	{
-		std::cout << "dong local service: Login " << std::endl;
-		std::cout << "name:" << name << " pwd:" << pwd << std::endl;
+		// std::cout << "dong local service: Login " << std::endl;
+		// std::cout << "name:" << name << " pwd:" << pwd << std::endl;
+		// 改为日志
+		LOG_INFO("doing local service: Login");
+		LOG_INFO("name:%s pwd:%s", name.c_str(), pwd.c_str());
 		return true;
 	}
 
 	bool Register(uint32_t id, std::string name, std::string pwd)
 	{
-		std::cout << "dong local service: Register " << std::endl;
-		std::cout << "id:" << id << " name:" << name << " pwd:" << pwd << std::endl;
+		// std::cout << "dong local service: Register " << std::endl;
+		// std::cout << "id:" << id << " name:" << name << " pwd:" << pwd << std::endl;
+		LOG_INFO("doing local service: Register");
+		LOG_INFO("id:%d name:%s pwd:%s", id, name.c_str(), pwd.c_str());
 		return true;
 	}
 

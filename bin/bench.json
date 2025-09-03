@@ -1,0 +1,118 @@
+{
+  "context": {
+    "date": "2025-09-03T17:54:03+08:00",
+    "host_name": "localhost",
+    "executable": "./benchmark_tests",
+    "num_cpus": 2,
+    "mhz_per_cpu": 2688,
+    "cpu_scaling_enabled": false,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 49152,
+        "num_sharing": 1
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 32768,
+        "num_sharing": 1
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 1310720,
+        "num_sharing": 1
+      },
+      {
+        "type": "Unified",
+        "level": 3,
+        "size": 25165824,
+        "num_sharing": 1
+      }
+    ],
+    "load_avg": [0.42,0.72,1.13],
+    "library_build_type": "debug"
+  },
+  "benchmarks": [
+    {
+      "name": "BM_RPC_Login_Latency/iterations:1000",
+      "run_name": "BM_RPC_Login_Latency/iterations:1000",
+      "run_type": "iteration",
+      "repetitions": 0,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1000,
+      "real_time": 4.1078708889999689e+03,
+      "cpu_time": 7.8930384600000002e+02,
+      "time_unit": "us",
+      "req/iter": 1.0000000000000000e+00
+    },
+    {
+      "name": "BM_RPC_Login_Throughput/threads:1",
+      "run_name": "BM_RPC_Login_Throughput/threads:1",
+      "run_type": "iteration",
+      "repetitions": 0,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 174,
+      "real_time": 4.2429672873587497e+03,
+      "cpu_time": 7.9450168390804572e+02,
+      "time_unit": "us",
+      "items_per_second": 1.2586505733771842e+03
+    },
+    {
+      "name": "BM_RPC_Login_Throughput/threads:2",
+      "run_name": "BM_RPC_Login_Throughput/threads:2",
+      "run_type": "iteration",
+      "repetitions": 0,
+      "repetition_index": 0,
+      "threads": 2,
+      "iterations": 172,
+      "real_time": 3.2179576017444015e+03,
+      "cpu_time": 7.5267091860465121e+02,
+      "time_unit": "us",
+      "items_per_second": 1.3286018833487856e+03
+    },
+    {
+      "name": "BM_RPC_Login_Throughput/threads:4",
+      "run_name": "BM_RPC_Login_Throughput/threads:4",
+      "run_type": "iteration",
+      "repetitions": 0,
+      "repetition_index": 0,
+      "threads": 4,
+      "iterations": 200,
+      "real_time": 2.2876259725012460e+03,
+      "cpu_time": 6.9691128499999979e+02,
+      "time_unit": "us",
+      "items_per_second": 1.4349028657212809e+03
+    },
+    {
+      "name": "BM_RPC_Login_Concurrency/threads:8",
+      "run_name": "BM_RPC_Login_Concurrency/threads:8",
+      "run_type": "iteration",
+      "repetitions": 0,
+      "repetition_index": 0,
+      "threads": 8,
+      "iterations": 208,
+      "real_time": 1.7137935030050883e+03,
+      "cpu_time": 6.5426022115384592e+02,
+      "time_unit": "us",
+      "items_per_second": 1.5284438326945988e+03
+    },
+    {
+      "name": "BM_RPC_Login_ErrorRate/iterations:1000",
+      "run_name": "BM_RPC_Login_ErrorRate/iterations:1000",
+      "run_type": "iteration",
+      "repetitions": 0,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 1000,
+      "real_time": 3.9528942790002475e+03,
+      "cpu_time": 7.6247913600000004e+02,
+      "time_unit": "us",
+      "error_rate": 0.0000000000000000e+00
+    }
+  ]
+}

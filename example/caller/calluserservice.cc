@@ -1,7 +1,6 @@
 #include <iostream>
 #include "mprpcapplication.h"
-#include "../user.pb.h"
-#include "mprpcchannel.h"
+#include "user.pb.h"
 
 int main(int argc, char **argv)
 {
