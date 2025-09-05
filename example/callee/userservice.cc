@@ -16,8 +16,8 @@ public:
 		// std::cout << "dong local service: Login " << std::endl;
 		// std::cout << "name:" << name << " pwd:" << pwd << std::endl;
 		// 改为日志
-		LOG_INFO("doing local service: Login");
-		LOG_INFO("name:%s pwd:%s", name.c_str(), pwd.c_str());
+		// LOG_INFO("doing local service: Login");
+		// LOG_INFO("name:%s pwd:%s", name.c_str(), pwd.c_str());
 		return true;
 	}
 
@@ -25,8 +25,8 @@ public:
 	{
 		// std::cout << "dong local service: Register " << std::endl;
 		// std::cout << "id:" << id << " name:" << name << " pwd:" << pwd << std::endl;
-		LOG_INFO("doing local service: Register");
-		LOG_INFO("id:%d name:%s pwd:%s", id, name.c_str(), pwd.c_str());
+		// LOG_INFO("doing local service: Register");
+		// LOG_INFO("id:%d name:%s pwd:%s", id, name.c_str(), pwd.c_str());
 		return true;
 	}
 

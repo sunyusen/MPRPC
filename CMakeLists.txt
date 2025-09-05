@@ -32,7 +32,7 @@ enable_testing()
 
 set(CMAKE_BUILD_TYPE "Debug")  # 设置编译模式为Debug
 
-set(CMAKE_CXX_STANDARD 11)  #强制使用C++11标准
+set(CMAKE_CXX_STANDARD 14)  #强制使用C++11标准
 set(CMAKE_CXX_STANDARD_REQUIRED ON)  #必须支持C++11
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -gdwarf-4")
 

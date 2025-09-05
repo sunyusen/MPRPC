@@ -1,25 +1,25 @@
 [
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "command": "/usr/local/bin/g++-11   -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -std=c++14 -o _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
   "file": "/home/glf/MPRPC/build/_deps/googletest-src/googlemock/src/gmock_main.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I_deps/googletest-src/googlemock/include -I_deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "command": "/usr/local/bin/g++-11   -I_deps/googletest-src/googlemock/include -I_deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -std=c++14 -o _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
   "file": "/home/glf/MPRPC/build/_deps/googletest-src/googlemock/src/gmock-all.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "command": "/usr/local/bin/g++-11   -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -std=c++14 -o _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googletest/src/gtest_main.cc",
   "file": "/home/glf/MPRPC/build/_deps/googletest-src/googletest/src/gtest_main.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I_deps/googletest-src/googletest/include -I_deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "command": "/usr/local/bin/g++-11   -I_deps/googletest-src/googletest/include -I_deps/googletest-src/googletest  -std=c++11 -g   -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -std=c++14 -o _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/glf/MPRPC/build/_deps/googletest-src/googletest/src/gtest-all.cc",
   "file": "/home/glf/MPRPC/build/_deps/googletest-src/googletest/src/gtest-all.cc"
 },
 
@@ -151,31 +151,31 @@
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/perf_counters_gtest.dir/perf_counters_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/perf_counters_gtest.cc",
+  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -pthread -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/perf_counters_gtest.dir/perf_counters_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/perf_counters_gtest.cc",
   "file": "/home/glf/MPRPC/build/_deps/googlebenchmark-src/test/perf_counters_gtest.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/string_util_gtest.dir/string_util_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/string_util_gtest.cc",
+  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -pthread -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/string_util_gtest.dir/string_util_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/string_util_gtest.cc",
   "file": "/home/glf/MPRPC/build/_deps/googlebenchmark-src/test/string_util_gtest.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/statistics_gtest.dir/statistics_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/statistics_gtest.cc",
+  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -pthread -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/statistics_gtest.dir/statistics_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/statistics_gtest.cc",
   "file": "/home/glf/MPRPC/build/_deps/googlebenchmark-src/test/statistics_gtest.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/benchmark_random_interleaving_gtest.dir/benchmark_random_interleaving_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/benchmark_random_interleaving_gtest.cc",
+  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -pthread -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/benchmark_random_interleaving_gtest.dir/benchmark_random_interleaving_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/benchmark_random_interleaving_gtest.cc",
   "file": "/home/glf/MPRPC/build/_deps/googlebenchmark-src/test/benchmark_random_interleaving_gtest.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/benchmark_gtest.dir/benchmark_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/benchmark_gtest.cc",
+  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -pthread -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/benchmark_gtest.dir/benchmark_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/benchmark_gtest.cc",
   "file": "/home/glf/MPRPC/build/_deps/googlebenchmark-src/test/benchmark_gtest.cc"
 },
 
@@ -271,7 +271,7 @@
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/commandlineflags_gtest.dir/commandlineflags_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/commandlineflags_gtest.cc",
+  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -pthread -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/commandlineflags_gtest.dir/commandlineflags_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/commandlineflags_gtest.cc",
   "file": "/home/glf/MPRPC/build/_deps/googlebenchmark-src/test/commandlineflags_gtest.cc"
 },
 
@@ -313,7 +313,7 @@
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/benchmark_name_gtest.dir/benchmark_name_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/benchmark_name_gtest.cc",
+  "command": "/usr/local/bin/g++-11  -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -I_deps/googlebenchmark-src/include -I_deps/googlebenchmark-src/src/../include -isystem _deps/googletest-src/googlemock/include -isystem _deps/googletest-src/googlemock -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -g   -pthread -std=gnu++14 -o _deps/googlebenchmark-build/test/CMakeFiles/benchmark_name_gtest.dir/benchmark_name_gtest.cc.o -c /home/glf/MPRPC/build/_deps/googlebenchmark-src/test/benchmark_name_gtest.cc",
   "file": "/home/glf/MPRPC/build/_deps/googlebenchmark-src/test/benchmark_name_gtest.cc"
 },
 
@@ -349,97 +349,97 @@
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o test/unit/CMakeFiles/unit_tests.dir/test_lockQueue.cc.o -c /home/glf/MPRPC/test/unit/test_lockQueue.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include -isystem _deps/googletest-src/googletest/include -isystem _deps/googletest-src/googletest  -std=c++11 -gdwarf-4 -g   -pthread -std=gnu++14 -o test/unit/CMakeFiles/unit_tests.dir/test_lockQueue.cc.o -c /home/glf/MPRPC/test/unit/test_lockQueue.cc",
   "file": "/home/glf/MPRPC/test/unit/test_lockQueue.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include -I_deps/googlebenchmark-src/src/../include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o test/benchmark/CMakeFiles/benchmark_tests.dir/benchmark_lockqueue.cc.o -c /home/glf/MPRPC/test/benchmark/benchmark_lockqueue.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include -I_deps/googlebenchmark-src/src/../include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o test/benchmark/CMakeFiles/benchmark_tests.dir/benchmark_lockqueue.cc.o -c /home/glf/MPRPC/test/benchmark/benchmark_lockqueue.cc",
   "file": "/home/glf/MPRPC/test/benchmark/benchmark_lockqueue.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include -I_deps/googlebenchmark-src/src/../include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o test/benchmark/CMakeFiles/benchmark_tests.dir/benchmark_rpc.cc.o -c /home/glf/MPRPC/test/benchmark/benchmark_rpc.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include -I_deps/googlebenchmark-src/src/../include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o test/benchmark/CMakeFiles/benchmark_tests.dir/benchmark_rpc.cc.o -c /home/glf/MPRPC/test/benchmark/benchmark_rpc.cc",
   "file": "/home/glf/MPRPC/test/benchmark/benchmark_rpc.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include -I_deps/googlebenchmark-src/src/../include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o test/benchmark/CMakeFiles/benchmark_tests.dir/__/__/example/user.pb.cc.o -c /home/glf/MPRPC/example/user.pb.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include -I_deps/googlebenchmark-src/src/../include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o test/benchmark/CMakeFiles/benchmark_tests.dir/__/__/example/user.pb.cc.o -c /home/glf/MPRPC/example/user.pb.cc",
   "file": "/home/glf/MPRPC/example/user.pb.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/logger.cc.o -c /home/glf/MPRPC/src/logger.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o src/CMakeFiles/mprpc.dir/logger.cc.o -c /home/glf/MPRPC/src/logger.cc",
   "file": "/home/glf/MPRPC/src/logger.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/glf/MPRPC/src/mprpcapplication.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/glf/MPRPC/src/mprpcapplication.cc",
   "file": "/home/glf/MPRPC/src/mprpcapplication.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/glf/MPRPC/src/mprpcconfig.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/glf/MPRPC/src/mprpcconfig.cc",
   "file": "/home/glf/MPRPC/src/mprpcconfig.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/glf/MPRPC/src/mprpccontroller.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/glf/MPRPC/src/mprpccontroller.cc",
   "file": "/home/glf/MPRPC/src/mprpccontroller.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/mprpchchannel.cc.o -c /home/glf/MPRPC/src/mprpchchannel.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o src/CMakeFiles/mprpc.dir/mprpchchannel.cc.o -c /home/glf/MPRPC/src/mprpchchannel.cc",
   "file": "/home/glf/MPRPC/src/mprpchchannel.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/glf/MPRPC/src/rpcheader.pb.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/glf/MPRPC/src/rpcheader.pb.cc",
   "file": "/home/glf/MPRPC/src/rpcheader.pb.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/glf/MPRPC/src/rpcprovider.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o src/CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/glf/MPRPC/src/rpcprovider.cc",
   "file": "/home/glf/MPRPC/src/rpcprovider.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/glf/MPRPC/src/zookeeperutil.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/glf/MPRPC/src/zookeeperutil.cc",
   "file": "/home/glf/MPRPC/src/zookeeperutil.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o example/callee/CMakeFiles/provider.dir/userservice.cc.o -c /home/glf/MPRPC/example/callee/userservice.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o example/callee/CMakeFiles/provider.dir/userservice.cc.o -c /home/glf/MPRPC/example/callee/userservice.cc",
   "file": "/home/glf/MPRPC/example/callee/userservice.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/glf/MPRPC/example/user.pb.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/glf/MPRPC/example/user.pb.cc",
   "file": "/home/glf/MPRPC/example/user.pb.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o example/caller/CMakeFiles/consumer.dir/callfriendsservice.cc.o -c /home/glf/MPRPC/example/caller/callfriendsservice.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o example/caller/CMakeFiles/consumer.dir/callfriendsservice.cc.o -c /home/glf/MPRPC/example/caller/callfriendsservice.cc",
   "file": "/home/glf/MPRPC/example/caller/callfriendsservice.cc"
 },
 
 {
   "directory": "/home/glf/MPRPC/build",
-  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++11 -o example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/glf/MPRPC/example/friend.pb.cc",
+  "command": "/usr/local/bin/g++-11   -I../src/include -I../example -I/usr/local/protobuf/include  -std=c++11 -gdwarf-4 -g   -std=gnu++14 -o example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/glf/MPRPC/example/friend.pb.cc",
   "file": "/home/glf/MPRPC/example/friend.pb.cc"
 }
 ]

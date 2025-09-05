@@ -46,11 +46,11 @@ void MprpcApplication::Init(int argc, char **argv)
 	// std::cout << "rpcserverport:" << m_config.Load("rpcserverport") << std::endl;
 	// std::cout << "zookeeperip:" << m_config.Load("zookeeperip") << std::endl;
 	// std::cout << "zookeeperport:" << m_config.Load("zookeeperport") << std::endl;
-	LOG_INFO("mprpcservice start up!");
-	LOG_INFO("rpcserverip:%s", m_config.Load("rpcserverip").c_str());
-	LOG_INFO("rpcserverport:%s", m_config.Load("rpcserverport").c_str());
-	LOG_INFO("zookeeperip:%s", m_config.Load("zookeeperip").c_str());
-	LOG_INFO("zookeeperport:%s", m_config.Load("zookeeperport").c_str());
+	// LOG_INFO("mprpcservice start up!");
+	// LOG_INFO("rpcserverip:%s", m_config.Load("rpcserverip").c_str());
+	// LOG_INFO("rpcserverport:%s", m_config.Load("rpcserverport").c_str());
+	// LOG_INFO("zookeeperip:%s", m_config.Load("zookeeperip").c_str());
+	// LOG_INFO("zookeeperport:%s", m_config.Load("zookeeperport").c_str());
 }
 MprpcApplication& MprpcApplication::GetInstance()
 {

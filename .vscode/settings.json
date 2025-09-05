@@ -71,6 +71,7 @@
 		"cinttypes": "cpp",
 		"typeindex": "cpp",
 		"any": "cpp",
-		"regex": "cpp"
+		"regex": "cpp",
+		"future": "cpp"
 	}
 }

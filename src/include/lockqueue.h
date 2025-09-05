@@ -9,29 +9,73 @@ template<typename T>
 class LockQueue
 {
 public:
-	// 多个worker线程都会写日志queue
-	void Push(const T &data)
+	LockQueue() :m_closed(false) {}
+
+	// 关闭队列：唤醒所有等待者，之后的push直接失败
+	void Close()
 	{
 		std::lock_guard<std::mutex> lg(m_mutex);
+		m_closed = true;
+		m_cond.notify_all(); // 唤醒所有等待的线程,通知他们队列关闭了
+	}
+
+	bool IsClosed() const {
+		std::lock_guard<std::mutex> lg(m_mutex);
+		return m_closed;
+	}
+
+	// 多个worker线程都会写日志queue
+	bool Push(const T &data)
+	{
+		std::lock_guard<std::mutex> lg(m_mutex);
+		if(m_closed) return false;
 		m_queue.push(data);
 		m_cond.notify_one(); // 唤醒一个等待的线程
+		return true;
 	}
-	// 一个线程读日志queue，写日志文件
-	T Pop()
+
+	// 右值Push
+	bool Push(T&& data)
+	{
+		std::lock_guard<std::mutex> lg(m_mutex);
+		if(m_closed) return false;
+		m_queue.push(std::move(data));
+		m_cond.notify_one(); // 唤醒一个等待的线程
+		return true;
+	}
+
+	// 阻塞Pop: 返回false表示队列已关闭且为空
+	bool Pop(T& out)
 	{
 		std::unique_lock<std::mutex> ul(m_mutex);
-		while (m_queue.empty())
-		{
-			// 日志队列为空，线程进入wait状态
-			m_cond.wait(ul);
-		}
-
-		T data = m_queue.front();
+		m_cond.wait(ul, [this]() { return !m_queue.empty() || m_closed; });
+		if(m_queue.empty()) return false; // 队列为空且关闭
+		out = std::move(m_queue.front());
 		m_queue.pop();
-		return data;
+		return true;
 	}
+
+	// 带超时的Pop。超时或关闭且空 => false
+	bool TryPop(T& out, std::chrono::milliseconds timeout)
+	{
+		std::unique_lock<std::mutex> ul(m_mutex);
+		if(!m_cond.wait_for(ul, timeout, [this]() { return !m_queue.empty() || m_closed; }))
+			return false; // 超时
+		if(m_queue.empty()) return false; // 队列为空且关闭
+		out = std::move(m_queue.front());
+		m_queue.pop();
+		return true;
+	}
+
+	bool Empty()
+	{
+		std::lock_guard<std::mutex> lg(m_mutex);
+		return m_queue.empty();
+	}
+
 private:
 	std::queue<T> m_queue;
-	std::mutex m_mutex;
+	mutable std::mutex m_mutex;	//为了使const方法里面也能加锁，添加mutable
 	std::condition_variable m_cond;
+	bool m_closed;
 };

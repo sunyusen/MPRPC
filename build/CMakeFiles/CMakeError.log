@@ -1,11 +1,11 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/glf/MPRPC/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja-build cmTC_3bf34 && [1/2] Building C object CMakeFiles/cmTC_3bf34.dir/src.c.o
-[2/2] Linking C executable cmTC_3bf34
-FAILED: cmTC_3bf34 
-: && /usr/local/bin/gcc-11 -DCMAKE_HAVE_LIBC_PTHREAD   CMakeFiles/cmTC_3bf34.dir/src.c.o  -o cmTC_3bf34   && :
-CMakeFiles/cmTC_3bf34.dir/src.c.o：在函数‘main’中：
+Run Build Command(s):/usr/bin/ninja-build cmTC_b4cc7 && [1/2] Building C object CMakeFiles/cmTC_b4cc7.dir/src.c.o
+[2/2] Linking C executable cmTC_b4cc7
+FAILED: cmTC_b4cc7 
+: && /usr/local/bin/gcc-11 -DCMAKE_HAVE_LIBC_PTHREAD   CMakeFiles/cmTC_b4cc7.dir/src.c.o  -o cmTC_b4cc7   && :
+CMakeFiles/cmTC_b4cc7.dir/src.c.o：在函数‘main’中：
 src.c:(.text+0x2d)：对‘pthread_create’未定义的引用
 src.c:(.text+0x39)：对‘pthread_detach’未定义的引用
 src.c:(.text+0x45)：对‘pthread_cancel’未定义的引用
@@ -39,10 +39,10 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/glf/MPRPC/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja-build cmTC_cd788 && [1/2] Building C object CMakeFiles/cmTC_cd788.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_cd788
-FAILED: cmTC_cd788 
-: && /usr/local/bin/gcc-11 -DCHECK_FUNCTION_EXISTS=pthread_create   CMakeFiles/cmTC_cd788.dir/CheckFunctionExists.c.o  -o cmTC_cd788  -lpthreads && :
+Run Build Command(s):/usr/bin/ninja-build cmTC_7ae1a && [1/2] Building C object CMakeFiles/cmTC_7ae1a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7ae1a
+FAILED: cmTC_7ae1a 
+: && /usr/local/bin/gcc-11 -DCHECK_FUNCTION_EXISTS=pthread_create   CMakeFiles/cmTC_7ae1a.dir/CheckFunctionExists.c.o  -o cmTC_7ae1a  -lpthreads && :
 /usr/bin/ld: 找不到 -lpthreads
 collect2: 错误：ld 返回 1
 ninja: build stopped: subcommand failed.
@@ -52,9 +52,9 @@ ninja: build stopped: subcommand failed.
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
 Change Dir: /home/glf/MPRPC/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja-build cmTC_a28b4 && [1/2] Building CXX object CMakeFiles/cmTC_a28b4.dir/src.cxx.o
-FAILED: CMakeFiles/cmTC_a28b4.dir/src.cxx.o 
-/usr/local/bin/g++-11    -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_a28b4.dir/src.cxx.o -c src.cxx
+Run Build Command(s):/usr/bin/ninja-build cmTC_52409 && [1/2] Building CXX object CMakeFiles/cmTC_52409.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_52409.dir/src.cxx.o 
+/usr/local/bin/g++-11    -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_52409.dir/src.cxx.o -c src.cxx
 g++-11: error: unrecognized command-line option '-Wshorten-64-to-32'
 g++-11: error: unrecognized command-line option '-Wshorten-64-to-32'
 ninja: build stopped: subcommand failed.
@@ -65,9 +65,9 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
 Change Dir: /home/glf/MPRPC/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja-build cmTC_9af6c && [1/2] Building CXX object CMakeFiles/cmTC_9af6c.dir/src.cxx.o
-FAILED: CMakeFiles/cmTC_9af6c.dir/src.cxx.o 
-/usr/local/bin/g++-11    -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -o CMakeFiles/cmTC_9af6c.dir/src.cxx.o -c src.cxx
+Run Build Command(s):/usr/bin/ninja-build cmTC_8268c && [1/2] Building CXX object CMakeFiles/cmTC_8268c.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_8268c.dir/src.cxx.o 
+/usr/local/bin/g++-11    -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WD654  -wd654   -wd654 -o CMakeFiles/cmTC_8268c.dir/src.cxx.o -c src.cxx
 g++-11: error: unrecognized command-line option '-wd654'
 g++-11: error: unrecognized command-line option '-wd654'
 ninja: build stopped: subcommand failed.
@@ -78,9 +78,9 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
 Change Dir: /home/glf/MPRPC/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja-build cmTC_52399 && [1/2] Building CXX object CMakeFiles/cmTC_52399.dir/src.cxx.o
-FAILED: CMakeFiles/cmTC_52399.dir/src.cxx.o 
-/usr/local/bin/g++-11    -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_52399.dir/src.cxx.o -c src.cxx
+Run Build Command(s):/usr/bin/ninja-build cmTC_3adce && [1/2] Building CXX object CMakeFiles/cmTC_3adce.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_3adce.dir/src.cxx.o 
+/usr/local/bin/g++-11    -std=c++11  -std=c++11  -Wall  -Wextra  -Wshadow  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_3adce.dir/src.cxx.o -c src.cxx
 g++-11: error: unrecognized command-line option '-Wthread-safety'
 g++-11: error: unrecognized command-line option '-Wthread-safety'
 ninja: build stopped: subcommand failed.

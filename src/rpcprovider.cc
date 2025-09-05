@@ -23,7 +23,7 @@ void RpcProvider::NotifyService(google::protobuf::Service *service)
 	int methodCnt = pserviceDesc->method_count();
 
 	// std::cout << "service_name:" << service_name << std::endl;
-	LOG_INFO("service_name: %s", service_name.c_str());
+	// LOG_INFO("service_name: %s", service_name.c_str());
 
 	for (int i = 0; i < methodCnt; ++i)
 	{
@@ -33,7 +33,7 @@ void RpcProvider::NotifyService(google::protobuf::Service *service)
 		service_info.m_methodMap.insert({method_name, pmethodDesc});
 
 		// std::cout << "method_name:" << method_name << std::endl;
-		LOG_INFO("method_name: %s", method_name.c_str());
+		// LOG_INFO("method_name: %s", method_name.c_str());
 	}
 	service_info.m_service = service;
 	m_serviceMap.insert({service_name, service_info});
